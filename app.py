@@ -211,10 +211,15 @@ def main():
     
     # Chat interface in sidebar
     with st.sidebar.expander("💬 Ask About Your Data", expanded=False):
+        # Initialize question in session state
+        if 'sidebar_question' not in st.session_state:
+            st.session_state.sidebar_question = ""
+        
         user_question = st.text_input(
             "Type your question...",
             placeholder="e.g., What's the sentiment?",
-            key="sidebar_question"
+            value=st.session_state.sidebar_question,
+            key="sidebar_question_input"
         )
         
         ask_button = st.button("Ask", type="primary", key="sidebar_ask")
@@ -226,13 +231,16 @@ def main():
         with col1:
             if st.button("Sentiment?", key="sentiment_q", use_container_width=True):
                 st.session_state.sidebar_question = "What's the overall sentiment?"
+                st.rerun()
         
         with col2:
             if st.button("Top Issues?", key="issues_q", use_container_width=True):
                 st.session_state.sidebar_question = "What are the top issues?"
+                st.rerun()
         
         if st.button("How to improve?", key="improve_q", use_container_width=True):
             st.session_state.sidebar_question = "How should we improve?"
+            st.rerun()
         
         # Process question
         if ask_button and user_question:
@@ -251,8 +259,9 @@ def main():
                     st.markdown("**Latest Response:**")
                     st.markdown(response)
                     
-                    # Clear input
+                    # Clear the question
                     st.session_state.sidebar_question = ""
+                    st.rerun()
                     
                 except Exception as e:
                     st.error(f"Error: {str(e)}")
@@ -267,6 +276,7 @@ def main():
         
         if st.button("Clear Chat", key="clear_chat", use_container_width=True):
             st.session_state.chat_history = []
+            st.session_state.sidebar_question = ""
             st.rerun()
     
     # Load data
