@@ -220,13 +220,16 @@ def main():
     with col1:
         if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True):
             st.session_state.sidebar_question = "What's the overall sentiment?"
+            st.rerun()
     
     with col2:
         if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True):
             st.session_state.sidebar_question = "What are the top issues?"
+            st.rerun()
     
     if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True):
         st.session_state.sidebar_question = "How should we improve?"
+        st.rerun()
     
     # Chat interface in expander
     with st.sidebar.expander("💬 Ask Your Question", expanded=False):
