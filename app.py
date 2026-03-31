@@ -238,13 +238,16 @@ def main():
         with col1:
             if st.button("Sentiment?", key="sentiment_q", use_container_width=True):
                 st.session_state.sidebar_question = "What's the overall sentiment?"
+                st.rerun()
         
         with col2:
             if st.button("Top Issues?", key="issues_q", use_container_width=True):
                 st.session_state.sidebar_question = "What are the top issues?"
+                st.rerun()
         
         if st.button("How to improve?", key="improve_q", use_container_width=True):
             st.session_state.sidebar_question = "How should we improve?"
+            st.rerun()
         
         # Process question
         if ask_button and st.session_state.sidebar_question:
