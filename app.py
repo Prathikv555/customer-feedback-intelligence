@@ -205,88 +205,75 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🤖 AI Assistant")
     
-    # Initialize chat history in session state
+    # Initialize session state
+    if 'current_question' not in st.session_state:
+        st.session_state.current_question = ""
+    
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
     
-    # Initialize question in session state
-    if 'sidebar_question' not in st.session_state:
-        st.session_state.sidebar_question = ""
-    
-    def set_sentiment_question():
-        st.session_state.sidebar_question = "What's the overall sentiment?"
-    
-    def set_issues_question():
-        st.session_state.sidebar_question = "What are the top issues?"
-    
-    def set_improve_question():
-        st.session_state.sidebar_question = "How should we improve?"
-    
-    # Quick question buttons (outside expander for better interaction)
+    # Quick question buttons
     st.sidebar.markdown("**Quick Questions:**")
+    col1, col2, col3 = st.columns(3)
     
-    if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True, on_click=set_sentiment_question):
-        pass
+    with col1:
+        if st.sidebar.button("Sentiment", use_container_width=True):
+            st.session_state.current_question = "What's the overall customer sentiment?"
     
-    if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True, on_click=set_issues_question):
-        pass
+    with col2:
+        if st.sidebar.button("Top Issues", use_container_width=True):
+            st.session_state.current_question = "What are the top customer issues?"
     
-    if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True, on_click=set_improve_question):
-        pass
+    with col3:
+        if st.sidebar.button("How to Improve", use_container_width=True):
+            st.session_state.current_question = "How should we improve customer satisfaction?"
     
-    # Chat interface in expander
+    # Chat interface
     with st.sidebar.expander("💬 Ask Your Question", expanded=False):
-        # Get current question from session state
-        current_question = st.session_state.sidebar_question
-        
-        user_question = st.text_input(
+        # Question input
+        question = st.text_input(
             "Type your question...",
-            placeholder="e.g., What's the sentiment?",
-            value=current_question,
-            key="sidebar_question_input"
+            placeholder="e.g., What's the sentiment trend?",
+            value=st.session_state.current_question
         )
         
-        # Update session state if user changes input
-        if user_question != current_question:
-            st.session_state.sidebar_question = user_question
-        
-        ask_button = st.button("Ask", type="primary", key="sidebar_ask")
-        
-        # Process question
-        if ask_button and st.session_state.sidebar_question:
-            with st.spinner("Thinking..."):
-                try:
-                    # Initialize chatbot if not already done
-                    if 'chatbot' not in st.session_state:
-                        st.session_state.chatbot = FeedbackChatbot(processor, analyzer)
-                    
-                    response = st.session_state.chatbot.get_response(st.session_state.sidebar_question)
-                    
-                    # Add to chat history
-                    st.session_state.chat_history.append((st.session_state.sidebar_question, response))
-                    
-                    # Display latest response
-                    st.markdown("**Latest Response:**")
-                    st.markdown(response)
-                    
-                    # Clear the question
-                    st.session_state.sidebar_question = ""
-                    st.rerun()
-                    
-                except Exception as e:
-                    st.error(f"Error: {str(e)}")
+        # Ask button
+        if st.button("Ask", type="primary"):
+            if question:
+                with st.spinner("Thinking..."):
+                    try:
+                        # Initialize chatbot if not already done
+                        if 'chatbot' not in st.session_state:
+                            st.session_state.chatbot = FeedbackChatbot(processor, analyzer)
+                        
+                        response = st.session_state.chatbot.get_response(question)
+                        
+                        # Add to chat history
+                        st.session_state.chat_history.append((question, response))
+                        
+                        # Display response
+                        st.markdown("**Latest Response:**")
+                        st.markdown(response)
+                        
+                        # Clear question
+                        st.session_state.current_question = ""
+                        st.rerun()
+                        
+                    except Exception as e:
+                        st.error(f"Error: {str(e)}")
         
         # Show recent chat history
         if st.session_state.chat_history:
             st.markdown("**Recent Questions:**")
-            for i, (q, a) in enumerate(st.session_state.chat_history[-3:]):  # Show last 3
+            for i, (q, a) in enumerate(st.session_state.chat_history[-3:]):
                 with st.expander(f"Q{i+1}: {q[:30]}..."):
                     st.markdown(f"**Q:** {q}")
                     st.markdown(f"**A:** {a}")
         
-        if st.button("Clear Chat", key="clear_chat", use_container_width=True):
+        # Clear chat button
+        if st.button("Clear Chat", use_container_width=True):
             st.session_state.chat_history = []
-            st.session_state.sidebar_question = ""
+            st.session_state.current_question = ""
             st.rerun()
     
     # Load data
