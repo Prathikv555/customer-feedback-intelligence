@@ -209,12 +209,27 @@ def main():
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
     
-    # Chat interface in sidebar
-    with st.sidebar.expander("💬 Ask About Your Data", expanded=False):
-        # Initialize question in session state
-        if 'sidebar_question' not in st.session_state:
-            st.session_state.sidebar_question = ""
-        
+    # Initialize question in session state
+    if 'sidebar_question' not in st.session_state:
+        st.session_state.sidebar_question = ""
+    
+    # Quick question buttons (outside expander for better interaction)
+    st.sidebar.markdown("**Quick Questions:**")
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True):
+            st.session_state.sidebar_question = "What's the overall sentiment?"
+    
+    with col2:
+        if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True):
+            st.session_state.sidebar_question = "What are the top issues?"
+    
+    if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True):
+        st.session_state.sidebar_question = "How should we improve?"
+    
+    # Chat interface in expander
+    with st.sidebar.expander("💬 Ask Your Question", expanded=False):
         # Get current question from session state
         current_question = st.session_state.sidebar_question
         
@@ -225,29 +240,11 @@ def main():
             key="sidebar_question_input"
         )
         
-        # Update session state if user changes the input
+        # Update session state if user changes input
         if user_question != current_question:
             st.session_state.sidebar_question = user_question
         
         ask_button = st.button("Ask", type="primary", key="sidebar_ask")
-        
-        # Quick question buttons
-        st.markdown("**Quick Questions:**")
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            if st.button("Sentiment?", key="sentiment_q", use_container_width=True):
-                st.session_state.sidebar_question = "What's the overall sentiment?"
-                st.rerun()
-        
-        with col2:
-            if st.button("Top Issues?", key="issues_q", use_container_width=True):
-                st.session_state.sidebar_question = "What are the top issues?"
-                st.rerun()
-        
-        if st.button("How to improve?", key="improve_q", use_container_width=True):
-            st.session_state.sidebar_question = "How should we improve?"
-            st.rerun()
         
         # Process question
         if ask_button and st.session_state.sidebar_question:
