@@ -1,0 +1,801 @@
+date,customer_id,platform,post_content,sentiment,category
+2025-12-13,cust_1171,Twitter,Love the new reporting! Especially next already tax government body save. #TechSupport,positive,Documentation
+2026-01-09,cust_8924,Instagram,Love the new notifications! East offer teacher yard onto may beautiful although. #ProductFeedback,positive,Feature Request
+2026-02-06,cust_1963,LinkedIn,Just tried Basic Plan and I'm frustrated! Rule product decade group project mission. #UserExperience,negative,Support
+2025-11-16,cust_6538,Instagram,Love the new notifications! Themselves know certain large improve own rich. #ProductFeedback,negative,Pricing
+2025-11-03,cust_1303,LinkedIn,Customer service was excellent! Accept when street. #ProductFeedback,positive,Documentation
+2025-11-22,cust_4313,Facebook,Love the new notifications! Garden control realize board little. #ProductFeedback,neutral,Documentation
+2025-11-20,cust_6461,Facebook,Just tried Enterprise Solution and I'm very satisfied! Guy perform source brother believe student. #CustomerExperience,positive,Pricing
+2026-01-29,cust_9627,Instagram,Just tried Mobile App and I'm neutral! Wall once education year. #ProductFeedback,neutral,Performance
+2025-12-05,cust_5591,Instagram,Love the new dashboard! Beat pattern stuff window. #TechSupport,neutral,Integration
+2026-01-04,cust_8970,LinkedIn,Love the new analytics! Wall garden put prepare. #UserExperience,negative,Usability
+2026-03-04,cust_7975,Facebook,Just tried API Service and I'm very satisfied! Sense project sister talk brother we computer. #ProductFeedback,positive,Performance
+2025-11-13,cust_1396,Facebook,Customer service was good! Size those my everything true visit throughout book. #UserExperience,positive,Documentation
+2026-03-23,anonymous,LinkedIn,Having issues with customer support. Right perhaps fly. #UserExperience,positive,Support
+2026-02-23,cust_2033,LinkedIn,Having issues with documentation. Mouth present book box. #CustomerExperience,positive,Support
+2025-11-08,cust_6846,Instagram,Mobile App is good but Thank matter room offer.. #TechSupport,neutral,Performance
+2025-10-04,cust_3555,Facebook,Customer service was okay! Many sound like pattern main last clear. #UserExperience,positive,Integration
+2025-11-14,cust_5595,LinkedIn,Having issues with customer support. Office east agency local might serve forward around. #ProductFeedback,positive,Feature Request
+2025-10-19,anonymous,Facebook,Mobile App is poor but Six add chance on person news.. #CustomerExperience,positive,Performance
+2025-10-31,anonymous,LinkedIn,Love the new search! Yet describe week draw enter share start. #TechSupport,positive,Integration
+2025-12-09,anonymous,LinkedIn,Customer service was good! Mrs help baby represent why concern find. #ProductFeedback,positive,Performance
+2026-01-05,cust_3855,Facebook,Having issues with performance. Administration building child free stuff want. #TechSupport,positive,Performance
+2025-10-14,anonymous,Facebook,Just tried API Service and I'm very satisfied! Worker could place partner. #ProductFeedback,positive,Performance
+2025-11-25,anonymous,Facebook,Customer service was good! Reveal election firm. #ProductFeedback,neutral,Support
+2025-10-20,cust_4253,Facebook,Having issues with integration. Seven five news pretty. #UserExperience,negative,Documentation
+2026-02-20,cust_9892,Instagram,Mobile App is good but Trade cultural race each others eight.. #CustomerExperience,neutral,Pricing
+2025-10-25,anonymous,Facebook,Love the new dashboard! Guy be during read subject coach nothing. #ProductFeedback,neutral,Pricing
+2026-03-03,cust_6950,Facebook,Web Platform is good but Street your student model parent during.. #CustomerExperience,positive,Integration
+2026-01-05,anonymous,Instagram,Just tried Pro Plan and I'm frustrated! Network should evidence boy some themselves exist. #TechSupport,negative,Integration
+2025-12-18,cust_6325,LinkedIn,Basic Plan is excellent but Can anyone education sound media small born her.. #TechSupport,negative,Integration
+2026-02-13,cust_1559,Facebook,Just tried Enterprise Solution and I'm very satisfied! Choose together two fast current could discuss. #CustomerExperience,positive,Usability
+2025-11-30,cust_5027,LinkedIn,Having issues with features. Condition beat poor save nation. #TechSupport,positive,Feature Request
+2025-12-27,anonymous,Twitter,Love the new API! Reduce day turn PM card season main. #ProductFeedback,negative,Usability
+2025-11-20,cust_4977,Twitter,Having issues with documentation. Old commercial team. #CustomerExperience,positive,Usability
+2026-01-14,cust_2173,LinkedIn,Having issues with reliability. Lawyer group leg company claim memory indicate. #CustomerExperience,positive,Support
+2026-02-22,cust_8826,Facebook,Love the new mobile app! Positive station Mrs rise rule affect. #UserExperience,negative,Bug Report
+2025-12-18,anonymous,Facebook,Having issues with features. Federal himself central experience soldier close. #UserExperience,positive,Integration
+2025-12-11,anonymous,LinkedIn,Love the new dashboard! Shoulder you race great. #ProductFeedback,positive,Feature Request
+2026-02-06,anonymous,Instagram,Just tried Pro Plan and I'm very satisfied! Too kind white man energy every. #UserExperience,positive,Support
+2026-03-19,cust_7083,LinkedIn,Love the new export functionality! Occur morning realize doctor. #ProductFeedback,positive,Usability
+2026-03-23,cust_8812,Twitter,Customer service was terrible! Answer mouth include state. #TechSupport,positive,Support
+2025-11-14,cust_9974,Twitter,Just tried Basic Plan and I'm frustrated! Raise thing rise hope baby environment finally. #TechSupport,negative,Pricing
+2025-12-18,anonymous,Instagram,Basic Plan is terrible but Half necessary recent want part owner condition.. #UserExperience,neutral,Feature Request
+2025-11-04,anonymous,Instagram,Having issues with user interface. Might behavior start event southern guess. #ProductFeedback,positive,Performance
+2026-03-16,cust_6448,Facebook,Having issues with performance. Success section stage offer employee laugh draw design. #ProductFeedback,positive,Feature Request
+2025-11-28,anonymous,LinkedIn,Just tried Basic Plan and I'm very satisfied! Probably mind on manager soldier word. #CustomerExperience,positive,Integration
+2025-12-15,cust_1768,LinkedIn,Having issues with customer support. Two perhaps conference choice who. #CustomerExperience,neutral,Feature Request
+2025-11-06,anonymous,Facebook,Customer service was good! Wear although become. #ProductFeedback,positive,Bug Report
+2025-12-26,cust_4021,Facebook,Just tried Basic Plan and I'm frustrated! Thought town important bit center school. #TechSupport,negative,Feature Request
+2025-11-24,cust_2084,Instagram,Just tried Pro Plan and I'm frustrated! Sing move few. #CustomerExperience,negative,Bug Report
+2025-10-21,anonymous,Facebook,Love the new export functionality! Half part child finish support want. #ProductFeedback,negative,Integration
+2026-02-13,cust_5702,Facebook,Love the new dashboard! Begin figure bad until particularly return main. #UserExperience,neutral,Documentation
+2026-02-13,anonymous,Instagram,Customer service was okay! Trouble already assume activity data well. #UserExperience,positive,Support
+2026-03-09,anonymous,Twitter,Customer service was terrible! Picture certain pull. #UserExperience,positive,Usability
+2026-01-18,anonymous,LinkedIn,Just tried Mobile App and I'm very satisfied! Like American far word table. #ProductFeedback,positive,Usability
+2026-03-07,anonymous,Instagram,Having issues with user interface. Benefit continue room marriage lay to stop. #CustomerExperience,positive,Feature Request
+2025-12-09,cust_9532,Instagram,Customer service was poor! President least really certain. #UserExperience,neutral,Integration
+2025-11-03,cust_6817,LinkedIn,Just tried Pro Plan and I'm very satisfied! Decision together save. #CustomerExperience,positive,Bug Report
+2026-02-04,cust_5024,Instagram,Having issues with integration. Dinner from price explain. #TechSupport,positive,Integration
+2025-10-06,cust_5410,Facebook,Just tried Basic Plan and I'm very satisfied! What whole test too so beat by. #CustomerExperience,positive,Bug Report
+2025-11-25,anonymous,LinkedIn,Mobile App is excellent but Seem pressure message position.. #UserExperience,positive,Support
+2026-03-31,cust_7523,Facebook,Enterprise Solution is okay but Theory military house type.. #TechSupport,positive,Usability
+2025-12-26,cust_1954,Facebook,Customer service was good! Project national about father piece. #CustomerExperience,positive,Documentation
+2026-01-18,anonymous,Instagram,Having issues with performance. Mean hear painting collection card allow keep well. #TechSupport,neutral,Bug Report
+2025-12-24,anonymous,LinkedIn,Having issues with performance. Top whole opportunity detail tax walk. #CustomerExperience,neutral,Usability
+2025-12-01,cust_7851,Instagram,Just tried Mobile App and I'm neutral! Example view peace party moment price develop inside. #CustomerExperience,neutral,Documentation
+2026-02-14,cust_3997,LinkedIn,Just tried Web Platform and I'm neutral! Free south network treatment. #CustomerExperience,neutral,Performance
+2026-01-04,anonymous,Instagram,Having issues with integration. Cut fire through last. #TechSupport,positive,Performance
+2025-12-11,cust_7687,Instagram,Having issues with integration. Soon local need outside two think. #ProductFeedback,neutral,Integration
+2025-12-01,cust_1769,LinkedIn,Customer service was excellent! Cover far protect great among phone seem score. #CustomerExperience,positive,Feature Request
+2026-03-21,cust_3088,LinkedIn,Having issues with integration. Site style manage opportunity. #UserExperience,negative,Feature Request
+2025-10-17,cust_4893,Twitter,Customer service was excellent! Trouble child edge. #UserExperience,neutral,Usability
+2026-01-12,cust_6158,Facebook,Having issues with documentation. Deep fire from. #ProductFeedback,neutral,Documentation
+2026-03-31,anonymous,Instagram,Customer service was good! Too follow on. #UserExperience,positive,Pricing
+2026-03-21,anonymous,Facebook,Customer service was okay! Soldier wide else possible free. #TechSupport,positive,Usability
+2026-01-29,cust_1599,Instagram,Enterprise Solution is okay but Age lay visit customer.. #UserExperience,neutral,Usability
+2025-12-04,cust_7640,Twitter,Having issues with customer support. Yard none large sure research Mr mission. #UserExperience,positive,Pricing
+2025-10-31,cust_5071,Twitter,Having issues with integration. High degree why though cold. #UserExperience,positive,Support
+2025-11-30,cust_4481,Instagram,Web Platform is excellent but Friend production around mother.. #TechSupport,neutral,Support
+2026-01-09,cust_8109,Instagram,Just tried Mobile App and I'm very satisfied! Along strong with sell have. #UserExperience,positive,Pricing
+2025-11-24,anonymous,Instagram,Love the new reporting! White show per attention boy raise. #CustomerExperience,positive,Bug Report
+2025-12-26,cust_4687,Instagram,Customer service was okay! Day nice listen gun important college but answer. #TechSupport,positive,Feature Request
+2026-02-20,cust_5129,Twitter,Enterprise Solution is poor but Morning somebody financial community ahead three price coach.. #UserExperience,negative,Performance
+2026-03-18,anonymous,LinkedIn,Having issues with user interface. Race eight force beautiful cell away. #CustomerExperience,neutral,Usability
+2025-12-09,cust_2667,Facebook,Having issues with user interface. Discuss player rise painting protect. #CustomerExperience,positive,Support
+2026-03-21,cust_7683,Facebook,Love the new notifications! Hear bad possible beat. #UserExperience,positive,Integration
+2025-12-13,cust_8494,LinkedIn,Having issues with customer support. Morning fall land child their social teach. #UserExperience,negative,Support
+2026-02-17,anonymous,Facebook,Enterprise Solution is poor but Several sense dog central hundred out.. #UserExperience,neutral,Integration
+2026-01-29,cust_8718,Twitter,Customer service was good! Truth radio in dark between plant. #UserExperience,negative,Performance
+2026-03-14,cust_8467,Facebook,Having issues with reliability. Continue full two until. #UserExperience,positive,Integration
+2025-12-04,anonymous,LinkedIn,Customer service was poor! Cut peace player action. #CustomerExperience,neutral,Feature Request
+2026-01-21,anonymous,Facebook,Love the new export functionality! Marriage environmental but inside year. #ProductFeedback,negative,Usability
+2026-03-09,anonymous,Facebook,Love the new mobile app! Design former member beyond past. #UserExperience,neutral,Integration
+2025-11-11,cust_1374,Twitter,Customer service was terrible! Can teach response these everybody concern case past. #CustomerExperience,neutral,Performance
+2025-11-04,anonymous,Twitter,Having issues with reliability. Player model together five. #ProductFeedback,positive,Pricing
+2025-12-09,cust_1759,Twitter,Basic Plan is okay but Main western notice husband light majority current.. #TechSupport,neutral,Documentation
+2025-11-04,cust_7485,Twitter,Just tried Pro Plan and I'm very satisfied! Finish population sing. #TechSupport,positive,Documentation
+2025-12-04,cust_5119,Instagram,Web Platform is excellent but Project shake coach money across and price.. #TechSupport,positive,Documentation
+2026-03-03,anonymous,Instagram,Having issues with integration. Run your forward brother in door last. #CustomerExperience,negative,Feature Request
+2025-12-04,cust_8290,Instagram,Customer service was good! Arm plan list hope plant. #CustomerExperience,neutral,Usability
+2025-11-27,cust_4595,LinkedIn,Customer service was okay! Doctor water white seat sport lay. #UserExperience,negative,Documentation
+2026-02-16,anonymous,LinkedIn,API Service is terrible but Rate south its development offer easy operation find.. #ProductFeedback,positive,Integration
+2026-02-20,anonymous,LinkedIn,Having issues with user interface. Which talk or result by. #ProductFeedback,positive,Performance
+2026-01-14,cust_4853,Instagram,Just tried Basic Plan and I'm frustrated! Throw behavior poor again friend glass. #TechSupport,negative,Pricing
+2026-01-02,cust_8262,Instagram,Love the new API! Himself easy evidence maintain feeling now. #UserExperience,positive,Usability
+2026-01-08,anonymous,LinkedIn,Love the new dashboard! Arm story challenge final about. #TechSupport,positive,Integration
+2026-02-22,cust_9176,LinkedIn,Love the new analytics! Wonder rise seven do foot never. #TechSupport,positive,Usability
+2025-12-18,cust_2007,Twitter,Love the new reporting! Rich imagine example leader. #TechSupport,positive,Performance
+2026-02-17,cust_6174,Twitter,Having issues with reliability. Doctor protect too factor. #TechSupport,positive,Integration
+2026-02-20,cust_6488,LinkedIn,Pro Plan is okay but Save onto leader again campaign.. #ProductFeedback,positive,Usability
+2026-02-22,anonymous,Instagram,Customer service was excellent! Vote force voice improve there. #TechSupport,positive,Performance
+2025-11-27,anonymous,Facebook,Customer service was okay! Authority on get next score hand. #UserExperience,negative,Support
+2026-01-18,cust_1725,Instagram,Love the new analytics! Care forget particularly. #UserExperience,negative,Performance
+2025-12-15,cust_5696,LinkedIn,Pro Plan is excellent but Young I visit because which.. #ProductFeedback,positive,Usability
+2026-03-16,cust_3176,Instagram,Having issues with performance. Head adult same religious research special degree. #ProductFeedback,positive,Documentation
+2026-03-09,cust_5258,Instagram,Having issues with performance. Main answer war owner seat partner. #CustomerExperience,neutral,Bug Report
+2026-02-09,cust_8324,Instagram,Pro Plan is okay but Computer poor usually subject write cup.. #UserExperience,positive,Usability
+2026-03-23,cust_2646,Instagram,Love the new analytics! Sit politics here today someone purpose word race. #CustomerExperience,positive,Documentation
+2026-03-25,cust_4269,Facebook,Pro Plan is poor but Beyond performance little alone.. #ProductFeedback,positive,Bug Report
+2025-10-04,cust_1865,Twitter,Web Platform is excellent but Make size house day feeling well.. #TechSupport,neutral,Feature Request
+2025-10-21,cust_1460,Twitter,Just tried Basic Plan and I'm neutral! Nothing else our. #TechSupport,neutral,Bug Report
+2026-01-24,anonymous,Instagram,Love the new export functionality! Knowledge gun involve rate hair war dark. #TechSupport,positive,Pricing
+2025-10-21,cust_7380,Twitter,Having issues with documentation. Research radio scene win similar simple. #CustomerExperience,neutral,Documentation
+2026-02-23,cust_4414,LinkedIn,Customer service was excellent! Simple science close current life every market. #UserExperience,negative,Performance
+2025-11-27,anonymous,Instagram,Just tried Basic Plan and I'm neutral! Garden several kid body. #ProductFeedback,neutral,Integration
+2025-12-27,cust_5718,Facebook,Just tried Basic Plan and I'm very satisfied! Evidence because training somebody identify arrive both meeting. #CustomerExperience,positive,Integration
+2025-12-26,cust_5547,LinkedIn,Having issues with user interface. Care to what cause project bed computer. #CustomerExperience,negative,Documentation
+2026-01-25,cust_7833,LinkedIn,Customer service was poor! Decision still start threat other water. #ProductFeedback,positive,Bug Report
+2026-02-23,cust_9765,Instagram,Having issues with reliability. Compare other first home worker. #CustomerExperience,neutral,Usability
+2026-01-25,cust_2040,Twitter,Having issues with integration. Case method really ability chair fill. #CustomerExperience,positive,Usability
+2025-10-20,cust_1538,LinkedIn,Just tried API Service and I'm very satisfied! Environment green nearly modern assume network. #ProductFeedback,positive,Pricing
+2026-01-29,anonymous,Twitter,Having issues with integration. Example energy world shoulder usually name player. #ProductFeedback,negative,Performance
+2025-12-24,cust_7989,Instagram,Pro Plan is excellent but Three perform sit throw although fire save.. #TechSupport,positive,Support
+2025-12-24,cust_2680,LinkedIn,Having issues with performance. While federal coach remember enjoy data. #TechSupport,neutral,Documentation
+2025-11-13,anonymous,Twitter,Pro Plan is poor but Anything easy court star day run.. #CustomerExperience,positive,Feature Request
+2025-10-17,cust_4367,Twitter,Just tried Enterprise Solution and I'm very satisfied! Difficult your cut personal. #CustomerExperience,positive,Bug Report
+2026-02-01,cust_2298,Facebook,Just tried Pro Plan and I'm neutral! Far experience against reflect perhaps while. #CustomerExperience,neutral,Pricing
+2025-10-02,anonymous,Instagram,Just tried Enterprise Solution and I'm neutral! Personal back road last yard sign professor care. #CustomerExperience,neutral,Integration
+2026-02-01,cust_8534,LinkedIn,Web Platform is okay but Friend understand man ball number here.. #UserExperience,neutral,Bug Report
+2025-11-04,cust_3106,LinkedIn,Customer service was excellent! Current provide win yet anything. #ProductFeedback,positive,Documentation
+2026-02-16,cust_7216,Twitter,Just tried API Service and I'm very satisfied! Majority week yourself table herself probably. #ProductFeedback,positive,Integration
+2025-10-19,cust_6390,Twitter,Having issues with user interface. Enjoy page house summer movement poor increase. #UserExperience,positive,Documentation
+2025-12-24,cust_4502,Twitter,Just tried Enterprise Solution and I'm neutral! Food detail city five. #TechSupport,neutral,Documentation
+2026-02-04,anonymous,LinkedIn,Basic Plan is okay but Or various the hear.. #TechSupport,positive,Performance
+2025-10-04,cust_9777,LinkedIn,Just tried Basic Plan and I'm very satisfied! Think pass special pull great message. #CustomerExperience,positive,Feature Request
+2026-01-12,cust_8541,Facebook,Customer service was poor! Money court worker themselves control. #UserExperience,positive,Pricing
+2026-01-05,cust_4606,Instagram,Enterprise Solution is terrible but Beat finally huge believe address will.. #UserExperience,positive,Performance
+2025-11-11,cust_4526,Instagram,Customer service was terrible! Leave carry stop build. #UserExperience,negative,Bug Report
+2025-10-19,cust_7072,Instagram,Just tried Pro Plan and I'm very satisfied! Short trade truth half agreement. #CustomerExperience,positive,Documentation
+2025-10-17,cust_5206,Instagram,Just tried API Service and I'm neutral! Century son agree be leave bit. #CustomerExperience,neutral,Pricing
+2025-12-27,cust_2326,LinkedIn,Having issues with user interface. Make process likely war network. #ProductFeedback,negative,Performance
+2025-12-18,cust_8137,Twitter,Customer service was okay! Next small Democrat pass west experience. #UserExperience,positive,Integration
+2025-12-18,cust_1305,Twitter,Pro Plan is poor but Southern different degree you build many table.. #CustomerExperience,positive,Support
+2025-12-15,anonymous,Facebook,Having issues with features. Explain point computer develop take perhaps happen. #ProductFeedback,positive,Performance
+2025-11-24,anonymous,Instagram,Having issues with performance. Whether free fall few away drug until. #UserExperience,neutral,Documentation
+2025-10-17,cust_5640,Instagram,Having issues with integration. Seven significant mission film remember dog study us. #UserExperience,positive,Documentation
+2026-01-09,anonymous,Instagram,Just tried Mobile App and I'm very satisfied! Beautiful add ready argue certain five. #ProductFeedback,positive,Integration
+2025-12-05,cust_1614,Instagram,Customer service was okay! Republican center only third candidate expert my. #ProductFeedback,positive,Integration
+2025-10-14,cust_3370,Facebook,Having issues with user interface. Save yard raise public project about open. #UserExperience,positive,Performance
+2026-02-16,cust_9053,Facebook,Mobile App is poor but Focus real first report provide space.. #TechSupport,positive,Documentation
+2025-12-01,cust_1602,Twitter,Customer service was excellent! Policy environment according entire lot door. #CustomerExperience,neutral,Support
+2025-10-02,cust_4138,Instagram,Just tried Mobile App and I'm neutral! Whose end agency always big. #TechSupport,neutral,Pricing
+2025-11-08,cust_1611,Twitter,Customer service was terrible! Certainly politics rock. #CustomerExperience,positive,Usability
+2025-12-13,cust_5616,Facebook,Just tried Web Platform and I'm neutral! Side response free history laugh attorney. #TechSupport,neutral,Performance
+2025-12-18,anonymous,Facebook,Customer service was okay! Be instead economy nation. #ProductFeedback,positive,Integration
+2026-03-09,cust_4359,LinkedIn,Just tried Mobile App and I'm very satisfied! Line watch wear consider. #TechSupport,positive,Usability
+2026-01-27,anonymous,Twitter,Enterprise Solution is terrible but Official off staff against between onto.. #CustomerExperience,positive,Feature Request
+2026-01-29,anonymous,Instagram,Enterprise Solution is okay but Thought similar without particular live future.. #UserExperience,neutral,Feature Request
+2026-01-25,cust_3034,Facebook,Enterprise Solution is poor but About policy understand.. #UserExperience,positive,Feature Request
+2026-03-28,anonymous,Twitter,Love the new mobile app! Large door interesting another class. #UserExperience,neutral,Integration
+2025-10-06,anonymous,Instagram,Web Platform is good but Protect small food American.. #UserExperience,negative,Bug Report
+2026-02-20,cust_7023,LinkedIn,Customer service was excellent! Success brother from artist other. #TechSupport,neutral,Integration
+2026-01-21,anonymous,Instagram,Mobile App is poor but Deep show hard money paper hear again.. #CustomerExperience,negative,Documentation
+2025-11-24,cust_4822,Instagram,API Service is good but Board traditional bad occur.. #ProductFeedback,positive,Feature Request
+2026-02-13,anonymous,Instagram,Pro Plan is terrible but Enjoy thus already charge thousand.. #CustomerExperience,positive,Integration
+2026-01-05,anonymous,LinkedIn,Having issues with pricing. Gas impact choice today sister three. #UserExperience,positive,Feature Request
+2025-10-09,cust_6673,Facebook,Having issues with customer support. Order discover political network step throughout. #TechSupport,neutral,Feature Request
+2025-11-27,cust_8769,LinkedIn,Just tried Web Platform and I'm very satisfied! Physical reduce find society necessary. #UserExperience,positive,Feature Request
+2026-01-10,cust_2675,Instagram,Having issues with pricing. Just away light they. #UserExperience,neutral,Documentation
+2026-02-13,cust_8160,Facebook,Customer service was poor! Institution owner specific court notice deal off. #UserExperience,positive,Usability
+2025-11-22,anonymous,Instagram,Love the new API! Both ever production southern. #TechSupport,negative,Integration
+2025-12-15,cust_4250,Facebook,Love the new search! Friend five middle record throughout. #TechSupport,positive,Pricing
+2025-12-30,cust_8274,Facebook,Just tried Web Platform and I'm very satisfied! Shoulder trouble animal reduce action late. #CustomerExperience,positive,Performance
+2025-10-09,anonymous,Facebook,Web Platform is okay but Read through pressure the foot Mrs water.. #TechSupport,positive,Usability
+2026-03-08,cust_2808,Instagram,Mobile App is terrible but Democrat cultural paper hope ok final.. #CustomerExperience,negative,Bug Report
+2025-11-27,anonymous,Twitter,Enterprise Solution is okay but Their price walk himself structure say.. #TechSupport,positive,Bug Report
+2025-11-04,anonymous,Facebook,Love the new search! Miss rest join store table modern teach. #TechSupport,positive,Pricing
+2026-03-28,cust_5724,Instagram,Customer service was excellent! Describe produce reveal education according they. #TechSupport,positive,Feature Request
+2025-12-05,anonymous,Instagram,Having issues with pricing. Particularly else wait. #TechSupport,positive,Performance
+2026-03-03,anonymous,Instagram,Customer service was okay! Heavy its put. #UserExperience,positive,Documentation
+2026-03-09,cust_7964,Twitter,Just tried API Service and I'm very satisfied! Wish top win. #TechSupport,positive,Pricing
+2026-03-07,cust_5404,Facebook,Web Platform is good but Again activity north from positive nature.. #UserExperience,positive,Performance
+2025-11-04,cust_3529,LinkedIn,Customer service was poor! Against grow how. #ProductFeedback,positive,Integration
+2026-02-16,anonymous,Instagram,Just tried Pro Plan and I'm very satisfied! Pm notice thus not yourself apply hold. #TechSupport,positive,Support
+2026-02-23,anonymous,Facebook,Customer service was good! Although all issue TV. #TechSupport,positive,Pricing
+2026-03-21,cust_7469,Instagram,Just tried Mobile App and I'm neutral! Book drive administration soon life shoulder energy. #TechSupport,neutral,Feature Request
+2025-12-11,cust_8092,LinkedIn,Just tried API Service and I'm neutral! Door day teach staff home operation. #TechSupport,neutral,Pricing
+2025-12-13,cust_9757,Instagram,Customer service was poor! Partner myself rate nice. #CustomerExperience,positive,Support
+2026-01-10,cust_9908,Facebook,Enterprise Solution is good but Both white state now animal across also.. #UserExperience,positive,Support
+2026-02-28,cust_1760,Instagram,Just tried Pro Plan and I'm frustrated! Voice however mission worker exist. #UserExperience,negative,Feature Request
+2025-10-04,anonymous,Instagram,Having issues with pricing. Pressure herself offer professional later high organization. #UserExperience,neutral,Feature Request
+2025-11-20,anonymous,Facebook,Customer service was good! Sing someone happen. #CustomerExperience,positive,Usability
+2025-11-27,cust_5400,Instagram,API Service is excellent but Style politics over stage finish power improve hospital.. #UserExperience,positive,Usability
+2025-11-20,anonymous,Twitter,Love the new reporting! Just somebody thousand just general property unit. #TechSupport,positive,Pricing
+2025-11-28,cust_1571,Instagram,Just tried Enterprise Solution and I'm frustrated! Threat oil they think enough green. #ProductFeedback,negative,Pricing
+2025-10-20,cust_1624,Facebook,API Service is good but Evening writer analysis move customer.. #UserExperience,positive,Feature Request
+2025-10-25,cust_6623,Facebook,Customer service was poor! Science save entire make safe involve. #TechSupport,positive,Performance
+2025-12-05,cust_3739,Facebook,Customer service was excellent! Light safe successful month American future store. #UserExperience,positive,Support
+2025-11-22,anonymous,Instagram,Basic Plan is poor but Collection follow require whether someone region.. #CustomerExperience,positive,Bug Report
+2026-02-01,anonymous,Instagram,Basic Plan is good but Current long poor seem throughout billion.. #UserExperience,positive,Pricing
+2025-10-15,cust_5755,Twitter,Customer service was okay! Imagine per west go traditional drug movie. #TechSupport,positive,Documentation
+2025-12-08,anonymous,LinkedIn,Mobile App is terrible but Lot career price land perform.. #ProductFeedback,positive,Usability
+2026-01-02,cust_9281,Instagram,Customer service was okay! Civil set and. #ProductFeedback,negative,Support
+2026-02-20,anonymous,LinkedIn,Having issues with pricing. Huge feel city meeting newspaper real. #ProductFeedback,positive,Documentation
+2026-01-04,cust_8160,LinkedIn,Just tried Mobile App and I'm neutral! White more because. #UserExperience,neutral,Performance
+2026-03-07,cust_2216,Facebook,Customer service was poor! Question little respond benefit record. #UserExperience,positive,Pricing
+2025-11-20,anonymous,Facebook,Customer service was okay! Now push task performance able scene treat certain. #UserExperience,positive,Performance
+2025-12-01,cust_5034,Facebook,Customer service was terrible! Article seat student listen tax change myself. #CustomerExperience,neutral,Integration
+2026-03-07,cust_7786,Twitter,Customer service was terrible! Off share most model down. #CustomerExperience,neutral,Documentation
+2026-03-21,cust_1233,LinkedIn,Pro Plan is terrible but Figure region kind rich my nor.. #TechSupport,negative,Support
+2025-10-20,cust_1395,Facebook,Love the new API! Energy officer wish far beat road. #TechSupport,positive,Documentation
+2026-01-10,cust_6111,LinkedIn,Mobile App is excellent but None star mission husband agreement itself.. #ProductFeedback,neutral,Feature Request
+2025-10-25,cust_4941,Facebook,Basic Plan is okay but Away detail media quite.. #ProductFeedback,positive,Usability
+2026-02-17,cust_5292,Twitter,Love the new search! Necessary allow product account. #TechSupport,neutral,Feature Request
+2025-11-27,cust_3913,Twitter,Mobile App is good but Simple writer heavy part know.. #UserExperience,neutral,Performance
+2026-03-23,cust_7864,Instagram,Customer service was terrible! Throughout beautiful whole. #TechSupport,positive,Performance
+2026-02-14,cust_7727,Instagram,Just tried API Service and I'm frustrated! Be particular suddenly five city. #TechSupport,negative,Performance
+2026-01-14,cust_8668,Twitter,Love the new notifications! Once that produce high. #UserExperience,neutral,Feature Request
+2026-03-09,cust_1973,Twitter,Having issues with reliability. Middle early table example under site. #CustomerExperience,positive,Pricing
+2026-03-23,anonymous,Instagram,Just tried Enterprise Solution and I'm frustrated! Nature level month create stop certainly. #UserExperience,negative,Bug Report
+2025-11-13,anonymous,Twitter,Having issues with performance. Before believe administration color she right. #ProductFeedback,positive,Integration
+2025-10-31,anonymous,Instagram,Love the new search! History statement start create various. #TechSupport,positive,Performance
+2026-02-23,anonymous,Facebook,Just tried Basic Plan and I'm very satisfied! Family find never human artist. #CustomerExperience,positive,Usability
+2025-12-18,cust_1139,Twitter,Love the new API! Left on skill another. #CustomerExperience,neutral,Pricing
+2026-03-23,cust_5475,Instagram,Just tried Mobile App and I'm very satisfied! Morning all seat trouble nation. #CustomerExperience,positive,Support
+2026-01-18,cust_6562,Instagram,Customer service was poor! Ball move investment do. #UserExperience,neutral,Support
+2025-11-03,cust_5400,LinkedIn,Love the new dashboard! End indicate state hotel voice. #TechSupport,neutral,Pricing
+2026-02-23,cust_2944,Facebook,Web Platform is terrible but Assume million war seek.. #CustomerExperience,positive,Support
+2026-02-17,cust_1740,Facebook,Having issues with customer support. Public whose get between. #ProductFeedback,neutral,Feature Request
+2026-03-23,cust_7902,Facebook,Customer service was poor! Past speech one art leg bag account certainly. #ProductFeedback,positive,Feature Request
+2025-12-31,cust_2143,Facebook,API Service is poor but Television popular final order main support voice.. #TechSupport,negative,Integration
+2026-03-27,cust_8839,Twitter,Just tried Pro Plan and I'm frustrated! Research give reduce within teach activity risk. #ProductFeedback,negative,Usability
+2025-11-22,cust_8740,Facebook,Customer service was terrible! Kid relate relate rest sense compare everything develop. #CustomerExperience,positive,Support
+2025-12-01,cust_6029,Facebook,Just tried Web Platform and I'm very satisfied! Finish risk author stop. #ProductFeedback,positive,Usability
+2026-02-06,anonymous,Instagram,Love the new search! Want common yard public use good. #UserExperience,positive,Usability
+2025-11-24,cust_4641,Facebook,Having issues with integration. Somebody house seven three myself evidence. #TechSupport,positive,Support
+2026-02-28,cust_9802,Instagram,Love the new reporting! After able truth mention huge serious sign. #ProductFeedback,positive,Support
+2025-10-20,cust_5560,Instagram,Mobile App is okay but Necessary room cup score.. #CustomerExperience,neutral,Documentation
+2025-11-28,cust_3549,Facebook,Love the new notifications! Age age think democratic. #CustomerExperience,positive,Support
+2026-02-16,cust_4912,Twitter,Mobile App is okay but Contain more young agent heavy almost interview compare.. #UserExperience,negative,Pricing
+2026-01-18,cust_3486,Instagram,Love the new analytics! Join happy debate cause quality house street protect. #TechSupport,neutral,Documentation
+2026-03-21,anonymous,Twitter,Having issues with user interface. Hold key job. #CustomerExperience,neutral,Documentation
+2026-02-26,anonymous,Facebook,Web Platform is poor but Natural simply college arm red.. #ProductFeedback,positive,Documentation
+2025-12-18,cust_8434,Twitter,Just tried Web Platform and I'm very satisfied! Artist family above young similar theory. #UserExperience,positive,Integration
+2026-02-10,anonymous,Instagram,Having issues with features. Difference choice light pretty. #ProductFeedback,positive,Usability
+2025-10-19,anonymous,Twitter,Just tried API Service and I'm very satisfied! Another whose this carry figure. #UserExperience,positive,Pricing
+2026-01-29,anonymous,Twitter,Love the new export functionality! Impact seven part pressure go serious home after. #TechSupport,positive,Performance
+2025-11-25,anonymous,Twitter,Having issues with pricing. Theory doctor move rich. #ProductFeedback,positive,Pricing
+2025-10-22,cust_8560,Twitter,Just tried Web Platform and I'm very satisfied! Late tend region. #CustomerExperience,positive,Integration
+2025-12-08,cust_7429,LinkedIn,Just tried Web Platform and I'm very satisfied! Time upon election radio. #UserExperience,positive,Support
+2026-03-09,cust_1348,Facebook,Customer service was terrible! Civil manager concern the. #ProductFeedback,positive,Usability
+2025-10-09,cust_2424,Instagram,Just tried API Service and I'm very satisfied! Often beautiful travel human even join not. #TechSupport,positive,Performance
+2026-03-21,cust_3947,Instagram,Love the new reporting! Look value senior his forward study. #CustomerExperience,positive,Bug Report
+2025-10-15,cust_8963,Instagram,Love the new export functionality! Weight head drug player well economic. #TechSupport,positive,Bug Report
+2025-10-09,cust_1398,Twitter,Having issues with documentation. Nation another technology store every. #CustomerExperience,neutral,Feature Request
+2026-01-07,anonymous,Twitter,Web Platform is good but People single lay scientist worry car address push.. #ProductFeedback,positive,Pricing
+2025-11-28,anonymous,Instagram,Having issues with integration. Less home often. #UserExperience,positive,Bug Report
+2025-11-16,cust_7559,Facebook,Just tried API Service and I'm neutral! Go fill deal law own win cultural. #TechSupport,neutral,Feature Request
+2025-10-21,anonymous,LinkedIn,Basic Plan is poor but Forget piece join continue hotel both eight.. #ProductFeedback,neutral,Bug Report
+2026-03-23,anonymous,Facebook,Just tried Enterprise Solution and I'm very satisfied! Southern trial contain budget. #CustomerExperience,positive,Bug Report
+2026-01-29,anonymous,Facebook,Having issues with customer support. Cup quite exist week support. #UserExperience,positive,Support
+2025-12-01,cust_2071,LinkedIn,Just tried Mobile App and I'm neutral! The rich as chance. #TechSupport,neutral,Pricing
+2026-02-20,cust_5061,Facebook,Customer service was excellent! Fill side less. #UserExperience,positive,Performance
+2025-10-06,cust_2495,Instagram,Love the new dashboard! Spend within chance fine. #CustomerExperience,positive,Usability
+2026-01-02,anonymous,LinkedIn,Having issues with integration. Center involve become idea leader just matter again. #TechSupport,negative,Usability
+2026-03-24,cust_2955,Twitter,Love the new dashboard! Return large crime player. #ProductFeedback,positive,Integration
+2025-12-04,cust_2911,Instagram,Pro Plan is poor but Key article sort themselves form realize.. #CustomerExperience,negative,Feature Request
+2025-10-04,anonymous,Facebook,Just tried Mobile App and I'm neutral! Hospital nothing take business financial trade. #ProductFeedback,neutral,Pricing
+2025-11-27,cust_5769,LinkedIn,Love the new export functionality! Recently side they meet it respond. #CustomerExperience,positive,Usability
+2025-10-22,cust_2884,Instagram,Having issues with customer support. Defense ahead body coach authority smile threat. #UserExperience,positive,Usability
+2026-01-24,cust_4824,LinkedIn,Having issues with reliability. Any above happen. #UserExperience,positive,Performance
+2025-11-25,anonymous,LinkedIn,Having issues with features. Reduce board special. #ProductFeedback,neutral,Support
+2026-03-18,anonymous,Facebook,Customer service was good! Allow professor box face may site. #ProductFeedback,neutral,Usability
+2026-01-07,cust_8681,Twitter,Customer service was poor! Tv conference success wall. #CustomerExperience,positive,Feature Request
+2026-03-19,anonymous,Facebook,Customer service was poor! Week teacher than much consider western recent suggest. #UserExperience,positive,Support
+2026-01-12,anonymous,Facebook,Customer service was excellent! Fish interesting too operation. #CustomerExperience,positive,Support
+2026-02-17,cust_4375,LinkedIn,Just tried Web Platform and I'm very satisfied! Choose your red pretty bank long finally behind. #CustomerExperience,positive,Usability
+2025-11-28,anonymous,Facebook,Just tried Mobile App and I'm frustrated! Standard boy mention. #CustomerExperience,negative,Feature Request
+2025-10-31,cust_1987,LinkedIn,Love the new dashboard! Low forward hundred evidence may condition house. #ProductFeedback,negative,Usability
+2026-03-25,cust_3898,LinkedIn,API Service is good but Authority middle experience popular deal.. #TechSupport,positive,Feature Request
+2026-01-02,cust_5444,Twitter,Love the new export functionality! Paper marriage western. #ProductFeedback,neutral,Bug Report
+2025-11-24,cust_1069,Instagram,Having issues with customer support. Production radio might cold option room success. #CustomerExperience,negative,Integration
+2026-03-08,cust_3681,Instagram,Enterprise Solution is good but Return may gun girl almost address trip.. #UserExperience,neutral,Pricing
+2026-01-09,cust_2194,Instagram,Having issues with documentation. Social form fast owner very about. #UserExperience,positive,Bug Report
+2025-10-09,cust_6853,Instagram,Customer service was good! Management lead can leader bar. #CustomerExperience,positive,Documentation
+2025-12-11,cust_3706,Twitter,Having issues with performance. Here per important lose themselves test. #ProductFeedback,positive,Documentation
+2025-11-11,cust_1909,Facebook,Having issues with reliability. Read can during mother or often moment. #TechSupport,positive,Documentation
+2025-11-24,cust_2332,Instagram,Just tried API Service and I'm frustrated! Make plant quickly method. #TechSupport,negative,Bug Report
+2026-01-02,cust_4207,Twitter,Having issues with customer support. Moment early establish range way. #TechSupport,positive,Feature Request
+2025-11-16,cust_2218,Facebook,Love the new dashboard! Rich road today soon. #UserExperience,positive,Usability
+2025-12-18,cust_2185,Instagram,Customer service was good! Bar strong data think project. #CustomerExperience,positive,Documentation
+2026-02-08,cust_6088,LinkedIn,Customer service was good! Free teacher case particularly. #TechSupport,positive,Performance
+2026-02-10,anonymous,Facebook,Just tried Pro Plan and I'm very satisfied! Science consider since. #CustomerExperience,positive,Usability
+2025-10-31,cust_5097,Facebook,Basic Plan is terrible but Prepare explain hit too could popular later western.. #TechSupport,neutral,Integration
+2025-11-28,anonymous,Facebook,Customer service was good! Contain day force wind Republican old why. #UserExperience,positive,Feature Request
+2025-10-28,cust_4407,Facebook,Love the new dashboard! Likely interest third prepare collection. #UserExperience,positive,Performance
+2026-02-06,cust_6458,Instagram,Just tried API Service and I'm neutral! Your moment himself. #TechSupport,neutral,Support
+2026-03-23,cust_2815,Twitter,Just tried Mobile App and I'm very satisfied! Happen also marriage fight technology rate let. #ProductFeedback,positive,Usability
+2026-03-07,cust_9648,Twitter,Love the new export functionality! Assume dog entire radio apply. #ProductFeedback,negative,Support
+2025-12-24,anonymous,Twitter,Having issues with integration. Place than part shoulder it along although. #ProductFeedback,neutral,Bug Report
+2026-02-20,cust_4204,Facebook,Just tried Enterprise Solution and I'm neutral! Blood foreign traditional matter. #ProductFeedback,neutral,Pricing
+2025-12-31,cust_6974,Facebook,Having issues with documentation. Authority tell certainly wind. #TechSupport,neutral,Performance
+2025-11-28,cust_4927,Twitter,Just tried Enterprise Solution and I'm very satisfied! Expert pull how serious college old. #TechSupport,positive,Performance
+2025-12-15,cust_5756,LinkedIn,Just tried Pro Plan and I'm very satisfied! Nation believe improve human remain learn. #TechSupport,positive,Bug Report
+2025-12-30,cust_4749,Facebook,Basic Plan is poor but Knowledge clear along indicate it subject.. #TechSupport,positive,Bug Report
+2026-01-12,cust_7330,LinkedIn,Love the new API! Mention when whom some here way. #TechSupport,positive,Usability
+2025-10-06,cust_4762,Facebook,Just tried Pro Plan and I'm very satisfied! Detail maybe it financial once no increase approach. #CustomerExperience,positive,Bug Report
+2026-02-14,anonymous,Twitter,Just tried Enterprise Solution and I'm neutral! Nor letter a range. #TechSupport,neutral,Support
+2025-11-30,cust_5319,Twitter,Having issues with features. Public protect everyone either opportunity week. #CustomerExperience,neutral,Bug Report
+2026-03-28,cust_2849,Facebook,Love the new dashboard! Everyone indicate support phone policy service thousand. #CustomerExperience,positive,Integration
+2025-10-20,cust_7165,Facebook,Basic Plan is poor but Offer prove common.. #ProductFeedback,positive,Pricing
+2026-03-16,cust_7068,Instagram,Having issues with customer support. Establish if security. #ProductFeedback,positive,Pricing
+2025-12-31,cust_9727,Twitter,API Service is okay but Born team of dark market.. #CustomerExperience,positive,Integration
+2025-12-18,cust_8134,LinkedIn,Web Platform is excellent but Notice international worry military language.. #TechSupport,positive,Pricing
+2026-01-29,cust_6624,LinkedIn,Love the new API! Buy security charge fund arrive technology. #ProductFeedback,positive,Bug Report
+2025-11-04,cust_9822,Instagram,Love the new dashboard! Evening upon opportunity. #CustomerExperience,positive,Pricing
+2025-11-06,cust_2791,Twitter,Basic Plan is poor but Study this wish wind difference billion.. #TechSupport,negative,Integration
+2025-11-25,cust_3192,LinkedIn,Love the new export functionality! Million once throughout throw goal describe smile. #CustomerExperience,positive,Usability
+2026-03-25,anonymous,Instagram,Just tried Enterprise Solution and I'm very satisfied! Interesting leg both behind. #CustomerExperience,positive,Usability
+2026-02-01,anonymous,LinkedIn,Enterprise Solution is okay but Soon son specific play manage feeling threat admit.. #TechSupport,positive,Pricing
+2025-10-12,anonymous,Twitter,Just tried Enterprise Solution and I'm very satisfied! Training simply apply. #UserExperience,positive,Support
+2025-10-14,cust_1463,LinkedIn,Having issues with integration. Really some crime improve on conference analysis evidence. #CustomerExperience,positive,Bug Report
+2026-02-23,cust_8106,Instagram,Just tried Enterprise Solution and I'm frustrated! Rather approach hundred worker challenge. #CustomerExperience,negative,Pricing
+2026-02-14,cust_1775,LinkedIn,Customer service was terrible! Many but that leg. #CustomerExperience,positive,Performance
+2026-03-28,anonymous,LinkedIn,Customer service was excellent! Detail during my activity. #CustomerExperience,positive,Pricing
+2026-01-08,anonymous,LinkedIn,Customer service was excellent! Environmental threat surface difference music vote. #UserExperience,negative,Performance
+2026-03-19,cust_9716,Twitter,Love the new search! My ten push that produce reduce decide. #UserExperience,neutral,Feature Request
+2026-03-14,cust_3639,Twitter,Just tried Pro Plan and I'm frustrated! Body likely hit purpose poor. #CustomerExperience,negative,Feature Request
+2026-01-24,cust_8307,Twitter,Love the new export functionality! Reality interesting range. #ProductFeedback,neutral,Pricing
+2025-11-28,cust_6935,Facebook,Love the new analytics! Party consumer bank pattern everyone successful cold. #TechSupport,positive,Usability
+2025-10-15,cust_5486,Twitter,Love the new analytics! Matter focus any or professional training less or. #ProductFeedback,positive,Pricing
+2025-10-25,anonymous,LinkedIn,Just tried Web Platform and I'm very satisfied! Financial activity position also husband buy break. #UserExperience,positive,Usability
+2026-03-21,anonymous,LinkedIn,Mobile App is excellent but Include before off research their according.. #UserExperience,positive,Bug Report
+2026-01-21,cust_6247,LinkedIn,Having issues with reliability. Which director share his want discussion step. #ProductFeedback,positive,Support
+2025-11-06,cust_4774,Instagram,API Service is good but Space gun company shoulder.. #CustomerExperience,positive,Bug Report
+2026-02-13,cust_3009,Instagram,Just tried Basic Plan and I'm very satisfied! But whose result each. #TechSupport,positive,Pricing
+2025-11-24,cust_5668,Facebook,Having issues with documentation. Country action often better. #UserExperience,positive,Performance
+2025-11-19,cust_1742,Instagram,Just tried Web Platform and I'm neutral! Near perform prove rather daughter again themselves. #TechSupport,neutral,Integration
+2026-02-04,cust_6008,Instagram,Having issues with performance. Pretty expect my act involve wind. #TechSupport,positive,Bug Report
+2025-11-19,cust_5788,Twitter,Just tried Pro Plan and I'm very satisfied! Collection effect I six sister. #UserExperience,positive,Pricing
+2026-03-21,cust_7630,LinkedIn,Love the new mobile app! Heavy skin fine law. #CustomerExperience,neutral,Performance
+2025-12-13,cust_7955,Instagram,Having issues with integration. Read son character on model up. #TechSupport,positive,Usability
+2026-03-03,cust_6316,Facebook,Pro Plan is poor but Less star certainly stock any strong group if.. #ProductFeedback,negative,Usability
+2026-02-01,cust_2464,Twitter,Having issues with pricing. Measure necessary each walk condition. #CustomerExperience,negative,Feature Request
+2025-12-11,cust_8605,Twitter,Love the new reporting! Value interesting common town. #ProductFeedback,positive,Bug Report
+2025-11-16,cust_6746,Instagram,Just tried Basic Plan and I'm neutral! Executive bar job. #UserExperience,neutral,Documentation
+2025-10-04,cust_5837,Twitter,Basic Plan is okay but Seven environmental majority season produce character south.. #UserExperience,positive,Performance
+2026-01-08,cust_8013,LinkedIn,Enterprise Solution is excellent but Great much star box environmental.. #CustomerExperience,positive,Pricing
+2025-12-15,anonymous,LinkedIn,Having issues with reliability. Federal relationship teacher box town section. #CustomerExperience,positive,Bug Report
+2026-03-31,cust_8409,Facebook,Just tried Pro Plan and I'm very satisfied! Herself pick yourself window. #CustomerExperience,positive,Pricing
+2026-01-29,anonymous,Facebook,Love the new notifications! Water talk son moment. #UserExperience,positive,Usability
+2025-12-01,cust_6152,Instagram,Having issues with documentation. Gas nation put big. #CustomerExperience,positive,Support
+2026-02-26,cust_4504,Instagram,Mobile App is poor but Apply fact evening level clearly religious.. #ProductFeedback,positive,Pricing
+2025-11-08,cust_7685,Twitter,Customer service was excellent! Dream finish ahead east information. #UserExperience,positive,Support
+2025-12-01,cust_4970,Facebook,Just tried Pro Plan and I'm frustrated! Bring story method relate. #UserExperience,negative,Support
+2026-02-08,cust_6405,Facebook,Pro Plan is good but Once us try star agency.. #ProductFeedback,positive,Performance
+2026-03-14,cust_5659,Facebook,Having issues with reliability. Scene professor bag who. #CustomerExperience,positive,Usability
+2025-11-22,cust_8328,Twitter,Customer service was excellent! Difficult memory out economy. #ProductFeedback,positive,Usability
+2026-01-29,cust_3646,LinkedIn,Customer service was good! Pretty down job human story right. #ProductFeedback,neutral,Performance
+2025-12-11,cust_4640,Facebook,Mobile App is okay but Because onto skin bit political.. #TechSupport,positive,Support
+2026-01-14,cust_4441,Instagram,Customer service was okay! Project father worker feel. #ProductFeedback,positive,Support
+2026-01-16,cust_4079,Instagram,Having issues with customer support. Charge public let difference whether along. #UserExperience,positive,Integration
+2025-12-04,cust_7658,LinkedIn,Love the new notifications! Picture among environment. #TechSupport,positive,Bug Report
+2025-11-25,cust_1005,Facebook,Basic Plan is excellent but Serve guess series.. #TechSupport,positive,Feature Request
+2026-01-27,cust_6334,Twitter,Having issues with user interface. Arrive reason science upon. #CustomerExperience,neutral,Documentation
+2025-12-13,cust_1879,Facebook,Customer service was poor! Manager wall business front foot natural name. #TechSupport,negative,Bug Report
+2025-12-31,cust_2420,Facebook,Love the new search! True step skin tonight opportunity example. #ProductFeedback,positive,Support
+2025-12-04,cust_3079,Facebook,Just tried Mobile App and I'm neutral! Seven leader two main national effort team. #CustomerExperience,neutral,Bug Report
+2025-12-21,cust_3080,Facebook,Mobile App is poor but Executive consumer girl cultural station decide.. #TechSupport,positive,Bug Report
+2026-03-03,cust_2509,Twitter,Having issues with performance. Both item three also thousand board prepare. #TechSupport,negative,Pricing
+2025-10-02,cust_2997,Instagram,Enterprise Solution is poor but Right best similar suddenly.. #CustomerExperience,positive,Documentation
+2026-02-10,cust_1692,LinkedIn,API Service is excellent but Technology day likely must.. #ProductFeedback,positive,Bug Report
+2025-10-19,cust_6956,Instagram,Customer service was terrible! Already feel PM movie deep drive nothing customer. #ProductFeedback,positive,Documentation
+2025-10-20,cust_3325,Facebook,Customer service was terrible! Certain light sister along. #TechSupport,positive,Feature Request
+2026-02-10,cust_6939,LinkedIn,Love the new export functionality! Key manager woman father. #TechSupport,positive,Bug Report
+2026-03-24,cust_4297,Twitter,Just tried Basic Plan and I'm very satisfied! Table sea tree wind remember. #TechSupport,positive,Bug Report
+2025-12-27,anonymous,Instagram,Love the new dashboard! Blood nearly ago great approach clearly now. #UserExperience,negative,Documentation
+2026-03-23,cust_6460,Instagram,Just tried Enterprise Solution and I'm very satisfied! Heavy character war everybody. #TechSupport,positive,Pricing
+2026-02-06,cust_2519,Instagram,Customer service was excellent! Turn similar least leg. #CustomerExperience,positive,Support
+2026-02-08,cust_3622,Instagram,Just tried API Service and I'm frustrated! Care ball take get customer kid painting officer. #TechSupport,negative,Documentation
+2025-10-21,anonymous,LinkedIn,Having issues with reliability. Large strategy others write including. #ProductFeedback,positive,Pricing
+2025-12-11,cust_2906,Instagram,Having issues with user interface. Write agent each make large type oil. #ProductFeedback,negative,Usability
+2026-03-14,anonymous,LinkedIn,Love the new export functionality! These fear glass crime no. #UserExperience,positive,Integration
+2026-03-08,cust_9452,Instagram,Customer service was okay! Popular firm fight dream. #UserExperience,neutral,Support
+2026-03-09,anonymous,Twitter,Enterprise Solution is poor but Economy end relationship point pay court these.. #ProductFeedback,neutral,Integration
+2026-02-04,cust_6937,LinkedIn,Web Platform is terrible but Throw admit senior pay.. #ProductFeedback,negative,Usability
+2026-02-26,cust_7157,Instagram,Basic Plan is terrible but Over professional final this change.. #ProductFeedback,negative,Usability
+2025-10-15,cust_5915,Twitter,Customer service was good! Court grow as news. #TechSupport,positive,Documentation
+2025-12-11,cust_2590,Instagram,Customer service was excellent! Benefit keep bag second southern. #UserExperience,negative,Bug Report
+2026-03-27,cust_4018,Instagram,Having issues with user interface. Whom personal many feeling. #ProductFeedback,positive,Documentation
+2025-10-31,cust_3522,Facebook,Having issues with customer support. Argue upon ten safe training. #TechSupport,negative,Feature Request
+2026-01-05,anonymous,Instagram,Just tried Basic Plan and I'm very satisfied! Attack professional church low various number understand. #UserExperience,positive,Bug Report
+2026-03-18,cust_5122,Facebook,Love the new analytics! Charge almost rule two. #UserExperience,positive,Support
+2026-01-21,anonymous,Facebook,Having issues with pricing. Evidence toward recognize exactly tell Congress. #UserExperience,positive,Feature Request
+2026-02-20,cust_1421,LinkedIn,Love the new mobile app! None ten research firm lead. #TechSupport,positive,Usability
+2025-12-27,anonymous,Instagram,Pro Plan is excellent but Into seven player high.. #UserExperience,positive,Documentation
+2026-02-09,cust_2496,Facebook,Web Platform is good but Media large and keep.. #CustomerExperience,positive,Bug Report
+2025-11-04,cust_3737,LinkedIn,Love the new reporting! Remain simply lose. #TechSupport,negative,Integration
+2026-01-08,cust_1110,Twitter,Customer service was excellent! Station step try friend. #UserExperience,neutral,Bug Report
+2025-10-19,cust_7009,Instagram,Love the new API! Final statement early option magazine factor. #CustomerExperience,positive,Usability
+2025-10-22,cust_4169,Instagram,Basic Plan is poor but Around power several mention issue.. #UserExperience,positive,Documentation
+2025-10-04,cust_9468,Instagram,Love the new dashboard! Whose become old myself. #UserExperience,positive,Documentation
+2025-12-30,cust_2344,Instagram,Just tried Mobile App and I'm neutral! Day plan this year. #ProductFeedback,neutral,Performance
+2026-01-05,cust_6912,Facebook,Just tried API Service and I'm frustrated! Pass too leader series truth write something. #CustomerExperience,negative,Usability
+2025-10-09,cust_9122,Instagram,Love the new search! Animal Mr provide report. #TechSupport,positive,Bug Report
+2026-03-14,cust_6601,Twitter,Love the new mobile app! Government rich always. #CustomerExperience,neutral,Feature Request
+2025-12-11,cust_8319,Instagram,Love the new analytics! Tough compare son offer food you book particularly. #UserExperience,positive,Integration
+2026-01-05,anonymous,Instagram,Customer service was excellent! Democratic yes many above off stop. #ProductFeedback,positive,Support
+2026-01-24,cust_2410,LinkedIn,Customer service was poor! Group series control show response. #TechSupport,negative,Integration
+2026-03-08,cust_6604,Facebook,Enterprise Solution is okay but Send bad officer foot task into.. #CustomerExperience,positive,Pricing
+2025-10-19,cust_2687,Instagram,Customer service was poor! Soon say quickly power turn strong. #TechSupport,positive,Integration
+2026-01-21,cust_6420,LinkedIn,Love the new search! College must new office every alone they. #UserExperience,negative,Pricing
+2025-10-25,anonymous,Facebook,Love the new export functionality! Military far in table. #TechSupport,positive,Pricing
+2026-02-20,cust_4361,LinkedIn,Web Platform is terrible but Edge such particular have.. #TechSupport,neutral,Bug Report
+2026-01-16,cust_8716,Twitter,Customer service was excellent! Congress whatever hundred physical poor upon. #TechSupport,neutral,Performance
+2026-03-03,cust_7399,Instagram,Just tried Enterprise Solution and I'm neutral! Shake soldier party whom treat on knowledge. #TechSupport,neutral,Pricing
+2025-11-06,cust_6112,Twitter,Enterprise Solution is good but Work occur church adult general him.. #TechSupport,negative,Pricing
+2026-03-21,cust_1832,LinkedIn,Just tried Pro Plan and I'm very satisfied! Five none actually camera something there will. #CustomerExperience,positive,Integration
+2025-11-11,anonymous,Facebook,Just tried Pro Plan and I'm very satisfied! Score oil sing talk attorney international. #UserExperience,positive,Integration
+2025-10-12,cust_7349,LinkedIn,Love the new notifications! Necessary challenge recognize thought. #CustomerExperience,neutral,Usability
+2026-02-28,anonymous,Twitter,Love the new mobile app! Kitchen guess as very firm large. #ProductFeedback,positive,Support
+2026-03-18,cust_7094,LinkedIn,Love the new dashboard! Response spend keep president half game. #CustomerExperience,neutral,Documentation
+2026-01-07,anonymous,Instagram,Love the new API! He risk property who on build. #ProductFeedback,negative,Support
+2025-11-30,cust_3201,Facebook,Just tried Web Platform and I'm neutral! Model fish through become everything could. #ProductFeedback,neutral,Performance
+2026-01-16,cust_3436,Facebook,Love the new analytics! Building picture always. #UserExperience,positive,Integration
+2025-10-14,cust_9212,Instagram,Pro Plan is poor but You want agreement increase.. #UserExperience,positive,Bug Report
+2026-02-17,cust_6228,Twitter,Just tried API Service and I'm very satisfied! Song bit new out south. #ProductFeedback,positive,Bug Report
+2026-02-17,anonymous,Instagram,Customer service was good! Three statement good card business south decide. #UserExperience,positive,Usability
+2026-02-09,cust_1479,LinkedIn,Just tried Web Platform and I'm neutral! Better here more unit leader me low need. #CustomerExperience,neutral,Bug Report
+2026-01-09,cust_1941,Facebook,Having issues with documentation. Begin face population physical industry prove miss. #ProductFeedback,neutral,Feature Request
+2026-03-09,cust_3769,Instagram,Mobile App is terrible but Early yeah yes be.. #TechSupport,positive,Performance
+2026-01-09,cust_3612,LinkedIn,Having issues with pricing. Public medical deal marriage room company indicate. #TechSupport,positive,Usability
+2026-02-13,anonymous,LinkedIn,Web Platform is okay but Unit yard myself quickly.. #UserExperience,negative,Documentation
+2026-02-17,anonymous,Instagram,Just tried Mobile App and I'm very satisfied! Push night meet old need tough. #UserExperience,positive,Pricing
+2025-11-03,cust_9189,Instagram,Enterprise Solution is okay but Away service staff always.. #CustomerExperience,negative,Pricing
+2026-02-26,cust_1367,Facebook,Just tried API Service and I'm neutral! Bed argue key three respond source. #ProductFeedback,neutral,Pricing
+2025-11-03,anonymous,Instagram,Just tried Web Platform and I'm very satisfied! Church couple civil happen fast. #TechSupport,positive,Pricing
+2026-02-14,anonymous,LinkedIn,Just tried Web Platform and I'm very satisfied! Make attack rather down prove about. #UserExperience,positive,Integration
+2026-03-04,cust_3260,LinkedIn,Enterprise Solution is poor but Look against hear.. #ProductFeedback,positive,Performance
+2026-03-11,cust_9236,Facebook,Having issues with reliability. Dark lose identify around agency difference. #TechSupport,positive,Feature Request
+2025-10-02,cust_7635,Twitter,API Service is okay but Food middle performance network young.. #ProductFeedback,neutral,Performance
+2026-03-27,cust_1251,Twitter,Having issues with customer support. Appear wonder sound onto. #TechSupport,neutral,Feature Request
+2026-03-09,cust_1441,Instagram,Just tried Pro Plan and I'm very satisfied! Art let everything total explain. #CustomerExperience,positive,Documentation
+2026-01-05,anonymous,LinkedIn,Customer service was excellent! Hotel until above serious mean term glass. #ProductFeedback,neutral,Bug Report
+2025-12-09,anonymous,Instagram,Love the new notifications! Left able ten everything season. #CustomerExperience,positive,Pricing
+2026-01-07,anonymous,Twitter,Having issues with user interface. Young down cold read guy. #TechSupport,positive,Usability
+2025-11-20,cust_1085,Twitter,Having issues with features. Chair couple accept even. #TechSupport,neutral,Bug Report
+2026-02-26,anonymous,Instagram,Customer service was poor! Reduce herself compare draw tonight medical pull. #TechSupport,positive,Performance
+2026-01-05,cust_6137,Instagram,Love the new reporting! Well assume share fund receive catch rock. #CustomerExperience,positive,Documentation
+2026-02-26,cust_1214,Instagram,Pro Plan is excellent but Position cold reach.. #TechSupport,neutral,Usability
+2025-10-22,cust_8880,Facebook,Having issues with features. Perhaps not successful almost both black. #CustomerExperience,neutral,Integration
+2025-10-14,cust_3635,LinkedIn,Customer service was okay! White interest main. #ProductFeedback,positive,Support
+2026-03-21,cust_8292,Instagram,Just tried API Service and I'm very satisfied! Buy idea right watch. #TechSupport,positive,Support
+2025-11-03,cust_6824,Twitter,Mobile App is poor but Something low baby should truth.. #TechSupport,positive,Usability
+2025-10-28,cust_8933,Facebook,Having issues with features. Great and ball above. #CustomerExperience,positive,Support
+2026-02-08,cust_3987,Facebook,Just tried API Service and I'm frustrated! Likely current school eye rock degree. #CustomerExperience,negative,Bug Report
+2025-12-11,anonymous,LinkedIn,Having issues with customer support. Involve protect Congress case best standard. #UserExperience,positive,Feature Request
+2025-11-08,anonymous,LinkedIn,Love the new API! Southern matter song better once different. #ProductFeedback,neutral,Pricing
+2025-10-02,cust_8476,Instagram,Enterprise Solution is good but Heart return try he.. #UserExperience,positive,Integration
+2025-10-09,anonymous,LinkedIn,API Service is okay but Partner activity part air exist.. #UserExperience,neutral,Documentation
+2026-01-16,anonymous,LinkedIn,Love the new analytics! General face culture national expert expect. #UserExperience,positive,Bug Report
+2025-11-16,cust_1941,Instagram,API Service is terrible but Quality choose his college character company.. #CustomerExperience,positive,Integration
+2026-01-05,cust_4075,LinkedIn,Just tried Web Platform and I'm very satisfied! Strong resource accept eat cultural. #UserExperience,positive,Bug Report
+2025-11-19,cust_7847,Twitter,Customer service was poor! Someone here vote by between agreement continue. #UserExperience,positive,Support
+2026-02-16,anonymous,Instagram,Just tried Enterprise Solution and I'm very satisfied! Police character able coach something science take. #ProductFeedback,positive,Bug Report
+2026-02-26,cust_1937,LinkedIn,Customer service was poor! Street tend radio reach view. #CustomerExperience,positive,Feature Request
+2025-10-12,cust_5996,Twitter,Customer service was good! Put too baby affect area. #CustomerExperience,neutral,Documentation
+2025-10-22,anonymous,Facebook,API Service is good but Agency anyone ahead research early change.. #TechSupport,positive,Feature Request
+2026-02-26,cust_2238,Instagram,Just tried API Service and I'm neutral! Give price there rather. #CustomerExperience,neutral,Feature Request
+2026-03-23,cust_5877,Instagram,Love the new mobile app! Listen various agency approach million some. #ProductFeedback,neutral,Feature Request
+2025-11-25,cust_1048,LinkedIn,Having issues with performance. Production my across base soldier out. #UserExperience,neutral,Usability
+2025-12-24,anonymous,LinkedIn,Customer service was terrible! Professor attention tree number. #UserExperience,positive,Integration
+2026-03-03,cust_6351,Twitter,Customer service was poor! Economy consider interesting sign her meet road check. #UserExperience,negative,Bug Report
+2025-12-31,cust_5766,LinkedIn,Having issues with pricing. Education sort north mission. #CustomerExperience,positive,Integration
+2025-11-24,cust_4443,Twitter,Customer service was excellent! Sound appear or laugh defense cost. #UserExperience,negative,Usability
+2026-01-10,anonymous,Facebook,Just tried Mobile App and I'm very satisfied! Certainly doctor conference southern attention responsibility on. #TechSupport,positive,Performance
+2025-12-26,cust_2992,Twitter,Customer service was poor! Decision indeed economy generation check. #TechSupport,neutral,Bug Report
+2025-11-13,cust_3444,Facebook,Pro Plan is good but Star five more hard reveal.. #TechSupport,positive,Documentation
+2026-03-25,cust_6342,LinkedIn,Enterprise Solution is okay but Close tree movie church rest.. #TechSupport,positive,Performance
+2026-01-16,anonymous,Facebook,Customer service was good! Quickly certain practice citizen develop quality. #UserExperience,neutral,Documentation
+2025-11-11,cust_9703,LinkedIn,Customer service was excellent! North remember maybe cost society can. #ProductFeedback,positive,Bug Report
+2026-03-07,cust_2910,LinkedIn,API Service is terrible but Former main money single fund herself recognize option.. #ProductFeedback,negative,Integration
+2026-03-31,cust_2947,LinkedIn,Customer service was okay! Focus skin tough side. #ProductFeedback,positive,Performance
+2026-03-08,anonymous,Instagram,Customer service was terrible! Case collection art final much sometimes. #CustomerExperience,neutral,Documentation
+2026-01-27,cust_3231,Facebook,Mobile App is poor but Miss stuff bill painting.. #TechSupport,neutral,Feature Request
+2026-03-24,anonymous,Facebook,Just tried API Service and I'm neutral! Pick character yes today four find feel. #ProductFeedback,neutral,Usability
+2025-12-04,cust_5423,Instagram,Love the new analytics! Summer ask TV now manager. #TechSupport,neutral,Integration
+2026-02-14,cust_8029,Twitter,Having issues with features. He sister beat computer dinner. #CustomerExperience,positive,Documentation
+2025-12-21,anonymous,Instagram,Love the new search! Before language one account medical lot so. #CustomerExperience,positive,Usability
+2026-01-04,anonymous,LinkedIn,Just tried Basic Plan and I'm very satisfied! Term on somebody down director be picture. #CustomerExperience,positive,Pricing
+2025-12-26,cust_6162,LinkedIn,Having issues with user interface. Together nature history information break already pass. #TechSupport,positive,Support
+2026-03-24,cust_6872,LinkedIn,Having issues with user interface. Matter realize food beyond price support he. #CustomerExperience,positive,Performance
+2026-01-08,cust_2081,LinkedIn,Customer service was okay! Exist explain day exist stand necessary song. #TechSupport,positive,Support
+2025-10-21,anonymous,LinkedIn,Just tried Mobile App and I'm very satisfied! Several team same cell baby fish effort. #UserExperience,positive,Pricing
+2026-02-16,cust_8451,Facebook,Enterprise Solution is terrible but Evidence mind fine yes later smile.. #UserExperience,neutral,Integration
+2025-10-20,anonymous,Instagram,Love the new export functionality! School easy energy. #TechSupport,neutral,Bug Report
+2025-11-04,cust_2655,Facebook,Having issues with documentation. Yourself everything sing. #TechSupport,neutral,Pricing
+2026-03-21,cust_2789,Facebook,Pro Plan is good but Mean break remain week sister top.. #ProductFeedback,positive,Usability
+2025-10-14,cust_5294,LinkedIn,Customer service was terrible! Civil democratic usually girl others short reason. #TechSupport,positive,Performance
+2025-10-21,anonymous,Instagram,Enterprise Solution is terrible but Range reduce chair explain.. #UserExperience,negative,Documentation
+2025-12-08,cust_6495,Facebook,Having issues with features. Major page eight require. #TechSupport,positive,Documentation
+2026-01-07,cust_6627,LinkedIn,Love the new reporting! Level item break party prevent their. #CustomerExperience,neutral,Performance
+2025-10-06,cust_9826,LinkedIn,Customer service was poor! Event boy action operation best should. #ProductFeedback,negative,Performance
+2025-12-24,anonymous,Instagram,Enterprise Solution is terrible but Practice bring national purpose name.. #ProductFeedback,negative,Support
+2026-03-09,cust_5249,LinkedIn,Having issues with documentation. Run garden final open necessary suffer. #CustomerExperience,positive,Bug Report
+2025-11-03,cust_7474,Facebook,Love the new search! Behavior world training network during section. #UserExperience,negative,Bug Report
+2026-02-23,cust_9117,LinkedIn,Having issues with reliability. Relationship white result. #UserExperience,positive,Support
+2025-11-04,cust_2924,Facebook,Love the new API! Guy skin language building someone. #ProductFeedback,positive,Performance
+2025-10-20,cust_2305,LinkedIn,Having issues with integration. Political few find manage around enjoy. #UserExperience,negative,Pricing
+2025-10-02,anonymous,LinkedIn,Customer service was poor! Fight across contain picture. #ProductFeedback,neutral,Support
+2026-02-28,cust_9852,Twitter,Love the new notifications! Road agency with expect. #CustomerExperience,positive,Support
+2026-01-27,cust_1072,LinkedIn,Having issues with user interface. Fact especially tree upon anything. #UserExperience,positive,Pricing
+2026-02-26,cust_2573,LinkedIn,Love the new search! Decision lay rise camera year notice professor. #ProductFeedback,positive,Support
+2025-11-16,cust_4462,Facebook,Love the new mobile app! North none public a. #CustomerExperience,positive,Integration
+2026-03-31,cust_4848,LinkedIn,Having issues with reliability. Show child guy fire drive political onto. #CustomerExperience,negative,Performance
+2025-12-01,cust_6249,LinkedIn,Customer service was poor! Several suffer one wind sister wear. #TechSupport,negative,Performance
+2026-01-04,cust_5384,LinkedIn,Having issues with reliability. Heart worry once player beyond factor. #TechSupport,positive,Integration
+2025-12-09,cust_3489,Twitter,Just tried Basic Plan and I'm very satisfied! Appear become civil single whom itself office nation. #TechSupport,positive,Performance
+2026-02-23,anonymous,Instagram,Pro Plan is good but Share evening treatment despite such.. #UserExperience,positive,Integration
+2026-02-17,anonymous,Instagram,Mobile App is terrible but Today billion measure never reveal one.. #UserExperience,neutral,Pricing
+2026-03-27,anonymous,Instagram,Love the new notifications! Finally increase test stuff nor mean send. #TechSupport,positive,Support
+2026-03-24,cust_2464,Facebook,Just tried Mobile App and I'm very satisfied! Particularly sometimes send case show return. #ProductFeedback,positive,Usability
+2025-12-15,anonymous,Instagram,Just tried Pro Plan and I'm frustrated! Build boy report through garden hold listen. #TechSupport,negative,Usability
+2025-12-09,cust_7845,Instagram,Love the new dashboard! Enjoy goal thought eat street. #UserExperience,positive,Documentation
+2025-12-26,anonymous,Twitter,Enterprise Solution is poor but Within student writer research available good between.. #ProductFeedback,negative,Performance
+2026-01-24,cust_8264,Twitter,Web Platform is okay but Clear dream good control safe rate.. #ProductFeedback,positive,Feature Request
+2025-12-04,anonymous,Instagram,Love the new mobile app! Everything system feel bank mother. #ProductFeedback,positive,Feature Request
+2026-02-13,cust_9328,Instagram,Love the new search! You who company training thank hand. #TechSupport,positive,Documentation
+2025-11-06,anonymous,LinkedIn,Love the new analytics! Hot day generation behind long. #TechSupport,positive,Integration
+2026-03-24,cust_3992,Facebook,Web Platform is excellent but Analysis adult threat answer color bag none give.. #UserExperience,neutral,Performance
+2026-01-14,cust_6248,Facebook,Enterprise Solution is okay but Source you late science decide business.. #CustomerExperience,positive,Performance
+2026-01-05,cust_7106,Facebook,API Service is okay but Spring feeling improve forget.. #UserExperience,negative,Pricing
+2026-02-04,cust_4425,Instagram,Web Platform is poor but Western white cost for he much idea.. #ProductFeedback,positive,Feature Request
+2026-03-07,anonymous,Facebook,Love the new dashboard! Account wish without its book pay town. #UserExperience,positive,Pricing
+2025-10-17,cust_2109,Facebook,Customer service was good! Their control go price may. #ProductFeedback,positive,Usability
+2025-10-31,anonymous,Twitter,Web Platform is terrible but Really staff stage.. #ProductFeedback,positive,Feature Request
+2026-01-02,cust_2857,Facebook,Love the new dashboard! Bill program imagine tell pull behind. #TechSupport,neutral,Performance
+2025-11-14,anonymous,Instagram,Basic Plan is good but Run performance system just out population.. #TechSupport,neutral,Bug Report
+2026-02-04,anonymous,Twitter,Having issues with reliability. Nation baby threat. #TechSupport,positive,Support
+2026-03-07,anonymous,LinkedIn,Customer service was terrible! Common light high not compare color toward. #UserExperience,neutral,Bug Report
+2025-12-05,cust_1940,LinkedIn,Just tried Web Platform and I'm neutral! Those continue prepare everything agent ahead important name. #UserExperience,neutral,Integration
+2026-02-26,cust_1932,Twitter,Love the new reporting! Summer want security. #UserExperience,neutral,Integration
+2025-11-14,cust_3214,Facebook,Mobile App is excellent but Too hair out phone fact vote movement.. #ProductFeedback,positive,Feature Request
+2025-11-11,cust_1339,Twitter,Love the new analytics! Growth nice dinner true serious full contain. #CustomerExperience,positive,Documentation
+2025-11-16,cust_7755,Twitter,Love the new search! Protect material probably the property job very. #UserExperience,positive,Support
+2025-12-05,cust_3915,Facebook,Customer service was terrible! Sure cost likely return model why. #CustomerExperience,positive,Bug Report
+2026-02-17,cust_5095,Instagram,Customer service was good! Go I there section go model increase. #UserExperience,positive,Bug Report
+2026-03-25,anonymous,Facebook,Love the new search! Step church focus Republican strong current common drive. #UserExperience,positive,Integration
+2026-01-02,cust_3697,LinkedIn,Just tried API Service and I'm very satisfied! Eat film heart debate. #TechSupport,positive,Support
+2025-10-21,cust_5525,Instagram,API Service is excellent but Imagine town relationship many interesting.. #ProductFeedback,neutral,Feature Request
+2026-03-21,cust_2770,Facebook,Having issues with reliability. Often husband sound staff. #TechSupport,positive,Performance
+2026-01-04,cust_2263,Instagram,Web Platform is okay but Perform special administration.. #TechSupport,negative,Performance
+2026-03-16,cust_6588,LinkedIn,Love the new reporting! Husband sometimes article radio agreement region continue. #ProductFeedback,negative,Pricing
+2025-12-11,cust_7225,Instagram,Customer service was poor! Describe word interest yard. #ProductFeedback,positive,Documentation
+2026-01-10,cust_1778,Twitter,Having issues with reliability. Speech big such road talk. #CustomerExperience,neutral,Pricing
+2026-03-08,cust_7784,Facebook,Web Platform is terrible but Again often eight.. #ProductFeedback,positive,Documentation
+2026-01-14,cust_8298,Instagram,Customer service was good! Force TV line according article full voice. #CustomerExperience,positive,Support
+2025-11-16,anonymous,LinkedIn,Love the new API! Together help the reveal audience wall any leg. #UserExperience,positive,Performance
+2025-12-30,cust_9702,LinkedIn,Having issues with customer support. Baby age attorney word magazine decision real. #ProductFeedback,neutral,Integration
+2026-02-13,cust_6462,Twitter,Pro Plan is okay but Pressure last heart open magazine management even wife.. #TechSupport,positive,Support
+2026-01-05,anonymous,Instagram,Customer service was excellent! No attention save box decade. #ProductFeedback,neutral,Bug Report
+2025-12-31,cust_3275,Instagram,Love the new export functionality! Set itself standard fear foreign themselves responsibility. #UserExperience,positive,Bug Report
+2026-02-23,cust_7779,Twitter,Pro Plan is good but General team give financial budget.. #ProductFeedback,positive,Support
+2025-12-01,cust_9891,Instagram,Just tried Enterprise Solution and I'm very satisfied! Give city these vote at take suffer. #TechSupport,positive,Usability
+2026-02-14,cust_7901,Instagram,Love the new reporting! About voice appear task. #TechSupport,positive,Documentation
+2026-01-27,cust_2798,Instagram,Having issues with performance. It key author maintain ok project former. #CustomerExperience,negative,Usability
+2025-10-21,cust_1431,Facebook,Love the new export functionality! Agency television collection Congress up commercial. #TechSupport,positive,Bug Report
+2026-01-25,anonymous,Facebook,Basic Plan is terrible but Figure Mr member ever hand.. #ProductFeedback,neutral,Performance
+2025-11-30,anonymous,LinkedIn,Having issues with integration. Exist pay process number no. #ProductFeedback,negative,Usability
+2026-03-03,cust_3151,Instagram,Enterprise Solution is terrible but Various particularly respond street piece.. #UserExperience,positive,Performance
+2025-11-14,cust_4198,Instagram,Enterprise Solution is excellent but Down industry energy decision.. #UserExperience,neutral,Integration
+2025-11-06,cust_3238,Twitter,Love the new notifications! Paper religious strategy town plan no. #CustomerExperience,neutral,Pricing
+2026-01-10,anonymous,Facebook,Just tried API Service and I'm very satisfied! Total name enter. #UserExperience,positive,Bug Report
+2026-03-31,cust_1800,Instagram,Having issues with pricing. Thousand enter hope window. #TechSupport,positive,Pricing
+2026-03-07,anonymous,Facebook,Just tried API Service and I'm very satisfied! Get occur design simply fly company. #CustomerExperience,positive,Bug Report
+2026-03-14,anonymous,LinkedIn,Love the new search! Report remember professional ahead her decide chance. #TechSupport,neutral,Support
+2026-02-17,cust_7564,LinkedIn,Just tried API Service and I'm very satisfied! Wonder daughter summer very sound newspaper positive husband. #UserExperience,positive,Integration
+2026-03-08,anonymous,LinkedIn,Basic Plan is excellent but Watch maybe such full.. #CustomerExperience,positive,Documentation
+2026-03-19,cust_7742,LinkedIn,API Service is okay but Style oil certainly history.. #ProductFeedback,neutral,Documentation
+2025-11-04,cust_3591,Facebook,Mobile App is good but Pass when nation month and skin.. #ProductFeedback,positive,Usability
+2026-02-08,cust_4182,Twitter,Just tried API Service and I'm very satisfied! Scene tough Mr true. #ProductFeedback,positive,Pricing
+2026-03-07,cust_4869,LinkedIn,Mobile App is okay but Win in citizen hot body.. #ProductFeedback,positive,Documentation
+2025-10-31,anonymous,Facebook,API Service is excellent but Interest today outside seek last can left.. #TechSupport,neutral,Integration
+2025-11-24,cust_3649,LinkedIn,Just tried Mobile App and I'm frustrated! Later himself question strong. #TechSupport,negative,Pricing
+2025-12-15,anonymous,Instagram,API Service is excellent but Professor study message do.. #CustomerExperience,positive,Integration
+2026-03-24,cust_3673,Facebook,Having issues with documentation. International stop trial score contain have discover. #ProductFeedback,positive,Feature Request
+2026-01-14,cust_9911,LinkedIn,Mobile App is excellent but Hot party issue yet movie.. #UserExperience,positive,Support
+2025-10-20,cust_3940,Instagram,Love the new reporting! Likely you receive this machine opportunity. #CustomerExperience,neutral,Performance
+2026-02-06,cust_7235,Instagram,Having issues with customer support. Wall order various talk though simple me. #TechSupport,negative,Integration
+2025-12-05,cust_3599,Facebook,Customer service was okay! Maintain rock determine. #UserExperience,negative,Integration
+2026-02-23,cust_9672,Twitter,Customer service was terrible! Next spend mention begin star something. #TechSupport,positive,Integration
+2025-10-09,anonymous,Twitter,Having issues with user interface. Large act would few a. #TechSupport,neutral,Pricing
+2026-03-27,anonymous,Instagram,Love the new notifications! Two difficult think pay painting remember. #ProductFeedback,positive,Support
+2025-11-11,cust_5503,Instagram,Love the new reporting! Nice rest pressure several language short firm. #TechSupport,positive,Integration
+2026-02-22,cust_2480,Twitter,Just tried Pro Plan and I'm frustrated! Skill drug provide because. #ProductFeedback,negative,Usability
+2025-10-21,anonymous,Instagram,Just tried Enterprise Solution and I'm very satisfied! Energy that true. #ProductFeedback,positive,Support
+2026-03-31,cust_6247,Facebook,Customer service was okay! Whatever already player become for fast second. #ProductFeedback,neutral,Support
+2025-11-04,anonymous,LinkedIn,Having issues with performance. Knowledge crime statement future she whose. #TechSupport,positive,Performance
+2025-11-27,cust_5653,Facebook,Love the new notifications! Sound land send drug structure financial. #CustomerExperience,neutral,Bug Report
+2025-11-08,cust_2866,Twitter,Just tried Pro Plan and I'm very satisfied! Experience meet again safe true message use. #CustomerExperience,positive,Support
+2025-11-30,cust_6945,Facebook,API Service is terrible but Production expert agreement perhaps loss tax.. #ProductFeedback,neutral,Documentation
+2025-10-20,cust_2835,Facebook,Web Platform is good but Person real campaign chair poor.. #ProductFeedback,neutral,Usability
+2026-03-08,anonymous,LinkedIn,Just tried API Service and I'm very satisfied! Realize which but. #TechSupport,positive,Documentation
+2026-03-08,cust_2477,Facebook,Web Platform is good but Step mention pay debate focus.. #TechSupport,positive,Integration
+2026-03-14,cust_2757,LinkedIn,Customer service was excellent! Southern put after minute because. #CustomerExperience,neutral,Support
+2025-12-08,cust_6797,LinkedIn,Love the new notifications! Task case mention oil head sense car worker. #TechSupport,positive,Bug Report
+2026-01-02,cust_3533,Twitter,Having issues with integration. Suddenly red require discuss hundred sit clearly government. #TechSupport,positive,Bug Report
+2026-02-10,anonymous,Twitter,Customer service was terrible! Grow tree other teacher. #TechSupport,positive,Support
+2026-01-24,cust_7155,Instagram,Love the new export functionality! Up break into set market face. #CustomerExperience,positive,Support
+2025-10-06,cust_1652,Twitter,Just tried Enterprise Solution and I'm neutral! Rule dinner billion yard if. #CustomerExperience,neutral,Integration
+2026-01-07,anonymous,LinkedIn,Basic Plan is good but Fall research service Republican indeed.. #TechSupport,neutral,Pricing
+2025-11-24,anonymous,Facebook,Customer service was okay! Inside seven want firm. #ProductFeedback,positive,Feature Request
+2026-02-13,cust_2113,LinkedIn,Customer service was poor! Similar coach perform. #ProductFeedback,positive,Documentation
+2026-01-18,anonymous,Facebook,Customer service was good! Size between where couple leave subject. #ProductFeedback,neutral,Feature Request
+2026-02-17,cust_5950,Facebook,Having issues with pricing. Than mother most imagine here list. #ProductFeedback,negative,Bug Report
+2025-11-30,cust_5856,LinkedIn,Love the new reporting! Religious matter unit property simply base. #UserExperience,positive,Usability
+2026-01-14,cust_3422,LinkedIn,Enterprise Solution is poor but Seat large thank.. #CustomerExperience,positive,Usability
+2025-10-21,cust_8685,Twitter,Just tried API Service and I'm very satisfied! Wish serve official. #ProductFeedback,positive,Performance
+2025-10-06,cust_8319,Facebook,Basic Plan is terrible but Sell night upon marriage leave then although.. #UserExperience,neutral,Documentation
+2025-11-22,cust_8039,Twitter,Having issues with features. Fly up strategy town. #ProductFeedback,positive,Documentation
+2025-11-06,cust_4577,Twitter,Having issues with features. Discussion four term myself. #UserExperience,negative,Integration
+2026-03-27,cust_6053,Facebook,Having issues with features. Begin ok drop reason hold suffer. #CustomerExperience,neutral,Support
+2026-02-17,anonymous,Facebook,Customer service was poor! Property magazine shoulder so radio. #CustomerExperience,positive,Bug Report
+2026-02-28,anonymous,Instagram,Just tried Web Platform and I'm very satisfied! Our Democrat successful report act. #CustomerExperience,positive,Bug Report
+2026-01-09,anonymous,Facebook,Just tried API Service and I'm very satisfied! Body drug affect American science item Mrs. #CustomerExperience,positive,Performance
+2025-10-14,anonymous,Twitter,Just tried Web Platform and I'm frustrated! Note administration my among. #CustomerExperience,negative,Feature Request
+2026-03-18,cust_4631,Instagram,Just tried API Service and I'm neutral! Note school listen business. #TechSupport,neutral,Integration
+2026-01-21,cust_2330,Instagram,Pro Plan is poor but Consumer close soldier win sing fund heart.. #ProductFeedback,positive,Pricing
+2025-11-20,cust_3488,Twitter,Just tried Enterprise Solution and I'm neutral! The hot plan land sea. #TechSupport,neutral,Bug Report
+2025-12-24,cust_9107,Facebook,Just tried Pro Plan and I'm neutral! Those forget manager gun low. #ProductFeedback,neutral,Usability
+2025-12-30,cust_2585,LinkedIn,Love the new search! Same leave source other without tell parent. #ProductFeedback,neutral,Performance
+2026-01-27,anonymous,Instagram,Love the new dashboard! Also another huge language fast wrong. #UserExperience,neutral,Support
+2025-11-24,cust_9792,LinkedIn,Pro Plan is terrible but Two child scene.. #CustomerExperience,negative,Pricing
+2026-01-27,anonymous,Instagram,Having issues with integration. Turn clearly real individual age mean. #CustomerExperience,positive,Support
+2025-10-22,cust_4404,Twitter,Customer service was excellent! Between live morning mean bill they. #UserExperience,neutral,Usability
+2025-12-21,cust_1478,LinkedIn,Having issues with performance. Improve story likely whatever strong story. #CustomerExperience,negative,Documentation
+2026-02-06,cust_4515,Facebook,Having issues with features. She then huge book decade sort difference. #UserExperience,positive,Usability
+2026-02-13,anonymous,LinkedIn,Having issues with pricing. Large trouble management. #TechSupport,negative,Feature Request
+2025-10-14,anonymous,LinkedIn,Pro Plan is terrible but Last result hot live same floor.. #ProductFeedback,positive,Integration
+2026-03-09,cust_8179,Twitter,Web Platform is terrible but Leave until matter across.. #ProductFeedback,positive,Integration
+2026-02-28,cust_6739,Twitter,Having issues with performance. Tree add investment threat machine form. #UserExperience,positive,Support
+2025-10-14,cust_9171,LinkedIn,Having issues with documentation. Another carry race budget. #ProductFeedback,neutral,Performance
+2025-10-22,cust_1401,Instagram,Customer service was good! Political edge heavy important apply sign. #TechSupport,neutral,Documentation
+2025-12-15,cust_7866,LinkedIn,Just tried API Service and I'm very satisfied! Somebody add wrong idea. #CustomerExperience,positive,Integration
+2026-03-18,anonymous,Instagram,Just tried Basic Plan and I'm frustrated! Fish window technology energy couple them this choice. #UserExperience,negative,Integration
+2025-11-08,anonymous,Twitter,Having issues with performance. Card account source whose quickly represent. #CustomerExperience,positive,Performance
+2025-10-22,cust_1133,Instagram,Having issues with user interface. Image most sometimes speak southern key. #ProductFeedback,positive,Pricing
+2026-01-08,cust_1887,Facebook,Just tried Basic Plan and I'm neutral! Mouth fund agreement miss. #TechSupport,neutral,Pricing
+2026-02-23,cust_5866,Instagram,Customer service was poor! Care not ever certainly write such. #ProductFeedback,positive,Performance
+2026-02-17,cust_4717,Twitter,Just tried Enterprise Solution and I'm neutral! Particular teacher improve realize. #TechSupport,neutral,Pricing
+2026-02-26,cust_3547,Twitter,API Service is terrible but Expect over weight radio.. #CustomerExperience,neutral,Bug Report
+2025-12-05,cust_7571,Twitter,Love the new dashboard! Establish off store growth stay site. #UserExperience,positive,Feature Request
+2026-03-08,cust_3699,Facebook,Love the new search! Foreign if husband watch foreign attention myself report. #TechSupport,positive,Feature Request
+2026-01-08,cust_7796,Twitter,Just tried API Service and I'm very satisfied! Drive manager arm affect. #ProductFeedback,positive,Documentation
+2026-02-14,cust_2319,Instagram,Just tried API Service and I'm very satisfied! Piece community help very doctor collection couple. #CustomerExperience,positive,Usability
+2025-10-25,cust_7142,LinkedIn,Just tried Mobile App and I'm very satisfied! Reality tend factor Mr anything. #ProductFeedback,positive,Support
+2025-12-15,anonymous,Twitter,Love the new reporting! Make easy fire fly century. #CustomerExperience,negative,Bug Report
+2026-02-08,cust_7263,LinkedIn,Just tried API Service and I'm neutral! History your budget tonight turn front travel age. #UserExperience,neutral,Pricing
+2025-10-17,anonymous,Twitter,Love the new API! Yeah half practice space group skin send. #UserExperience,positive,Documentation
+2025-12-31,cust_5846,Facebook,Customer service was okay! Admit little save enjoy worker degree bill. #UserExperience,positive,Performance
+2026-02-14,cust_6547,Facebook,Love the new mobile app! Local analysis pressure Mr six teach answer. #CustomerExperience,positive,Feature Request
+2025-12-08,cust_9497,Facebook,Customer service was excellent! Market foot leave particular its. #UserExperience,negative,Usability
+2026-01-07,anonymous,Facebook,Just tried Mobile App and I'm very satisfied! Pull certain expect factor. #ProductFeedback,positive,Documentation
+2026-02-22,cust_8101,Instagram,Customer service was terrible! Two fire reality nice manager fish. #TechSupport,positive,Usability
+2025-11-27,cust_3963,LinkedIn,Just tried Basic Plan and I'm very satisfied! Note seek realize agreement clear five. #UserExperience,positive,Pricing
+2026-03-21,cust_9014,LinkedIn,Having issues with reliability. President record building believe think. #ProductFeedback,positive,Performance
+2026-03-25,cust_5037,Instagram,Just tried Basic Plan and I'm very satisfied! Network investment clear yes concern student. #TechSupport,positive,Support
+2025-10-22,cust_6455,Instagram,Basic Plan is poor but Police rise finally send common impact consider difference.. #ProductFeedback,neutral,Pricing
+2025-11-27,anonymous,Instagram,Having issues with pricing. Effect to sea. #ProductFeedback,neutral,Documentation
+2026-03-27,cust_8771,Facebook,Customer service was excellent! Model over television current big teach. #UserExperience,neutral,Usability
+2025-10-06,anonymous,Instagram,Customer service was terrible! Money side various rule capital. #CustomerExperience,neutral,Documentation
+2025-12-26,anonymous,Facebook,Just tried Pro Plan and I'm very satisfied! Perhaps stage cold effect by organization. #CustomerExperience,positive,Performance
+2025-11-20,cust_2574,Twitter,Just tried Enterprise Solution and I'm very satisfied! Small note teacher president pass position second. #ProductFeedback,positive,Feature Request
+2026-02-04,cust_8571,Instagram,Having issues with user interface. Support beautiful page. #ProductFeedback,positive,Documentation
+2025-10-14,cust_3603,Twitter,Just tried Mobile App and I'm frustrated! Since investment audience oil newspaper whom. #CustomerExperience,negative,Usability
+2025-10-21,cust_6874,Instagram,Web Platform is poor but Clearly small movement leave role.. #TechSupport,positive,Feature Request
+2026-02-20,cust_8097,Twitter,Customer service was terrible! Shake food what participant. #UserExperience,neutral,Bug Report
+2026-01-29,cust_7001,LinkedIn,Mobile App is good but Meeting serious identify him agreement tonight leader.. #TechSupport,positive,Feature Request
+2026-03-24,anonymous,Facebook,Just tried Pro Plan and I'm very satisfied! Lead coach chair field guess condition second. #ProductFeedback,positive,Usability
+2026-01-09,cust_9634,LinkedIn,Having issues with performance. Family leader stuff art mother. #CustomerExperience,negative,Feature Request
+2025-11-13,cust_7008,Instagram,Mobile App is good but End gun medical their realize.. #UserExperience,negative,Feature Request
+2025-11-06,cust_6700,Twitter,Pro Plan is terrible but Important instead get agency analysis model.. #UserExperience,positive,Feature Request
+2026-02-10,anonymous,Facebook,Having issues with documentation. Phone special line. #CustomerExperience,positive,Documentation
+2026-01-10,anonymous,Twitter,Having issues with customer support. Identify later data. #ProductFeedback,positive,Documentation
+2025-12-26,anonymous,Instagram,Having issues with reliability. Five young throughout which manager protect charge. #CustomerExperience,positive,Usability
+2026-03-24,cust_3380,LinkedIn,Customer service was okay! Next behind television. #ProductFeedback,neutral,Integration
+2026-01-21,anonymous,LinkedIn,Pro Plan is excellent but In item reason medical front writer.. #CustomerExperience,neutral,Pricing
+2025-12-05,cust_2332,Instagram,Love the new search! Why wall area cover sound prepare. #TechSupport,neutral,Performance
+2026-01-04,cust_2432,Instagram,Love the new mobile app! Share what time loss field. #UserExperience,negative,Feature Request
+2025-10-12,cust_3393,LinkedIn,Customer service was excellent! Blue suffer hear certainly exist rise garden. #ProductFeedback,positive,Pricing
+2025-12-05,cust_4242,Facebook,Customer service was poor! Five his seat wonder wife image. #CustomerExperience,positive,Documentation
+2026-01-04,cust_9573,LinkedIn,Pro Plan is okay but Movement high approach fall say.. #CustomerExperience,neutral,Feature Request
+2026-01-18,cust_3812,Instagram,Customer service was excellent! Forget sense green news court simply general. #ProductFeedback,positive,Usability
+2026-01-29,cust_3412,LinkedIn,Just tried Mobile App and I'm neutral! Eat especially color important. #UserExperience,neutral,Usability
+2026-02-26,cust_4262,Instagram,Web Platform is excellent but Travel herself town allow.. #UserExperience,positive,Bug Report
+2025-10-28,cust_3887,Facebook,Customer service was okay! Degree grow day war myself arm environment. #UserExperience,positive,Performance
+2025-11-22,cust_5048,Instagram,Just tried Pro Plan and I'm frustrated! Other make statement. #ProductFeedback,negative,Performance
+2026-03-08,cust_5987,Twitter,Just tried API Service and I'm very satisfied! Toward level concern number win. #CustomerExperience,positive,Documentation
+2025-10-17,cust_9563,Facebook,Having issues with features. Level board cup environmental project. #CustomerExperience,negative,Feature Request
+2026-03-07,cust_2690,Twitter,Basic Plan is poor but Carry fish just feeling impact detail.. #UserExperience,positive,Documentation
+2026-02-08,cust_9695,Twitter,Customer service was excellent! Can who boy ahead player manage deep. #CustomerExperience,neutral,Usability
+2025-11-28,cust_7695,LinkedIn,Having issues with documentation. Pretty debate less risk industry democratic success better. #ProductFeedback,negative,Feature Request
+2025-11-16,cust_1429,Instagram,Just tried Mobile App and I'm neutral! Food claim this would writer plan rule. #CustomerExperience,neutral,Performance
+2025-10-20,anonymous,Facebook,Customer service was terrible! With best find buy media memory beat. #TechSupport,positive,Usability
+2025-11-08,cust_3100,Facebook,Mobile App is terrible but Skin live expect free.. #CustomerExperience,positive,Usability
+2025-12-11,cust_8812,Facebook,Just tried Enterprise Solution and I'm neutral! Toward government well common glass. #UserExperience,neutral,Documentation
+2026-03-09,anonymous,LinkedIn,Customer service was good! End our probably. #UserExperience,positive,Feature Request
+2025-10-09,cust_9254,LinkedIn,Having issues with features. Her black effect leader attorney ability use recent. #ProductFeedback,neutral,Usability
+2026-02-17,cust_7445,Instagram,Web Platform is poor but Pick feeling much water notice sign long before.. #UserExperience,positive,Support
+2026-01-09,anonymous,Facebook,Customer service was excellent! Evening join manager support customer. #TechSupport,neutral,Support
+2026-03-07,cust_6559,Twitter,Having issues with features. Check summer least. #ProductFeedback,neutral,Documentation
+2025-10-04,cust_1358,Instagram,Having issues with reliability. Rather administration without leader owner. #UserExperience,negative,Pricing
+2025-11-27,cust_4856,Facebook,Customer service was poor! And affect feeling. #ProductFeedback,positive,Documentation
+2025-10-09,cust_5058,Instagram,Having issues with integration. Ready who color wait what hot. #CustomerExperience,positive,Documentation
+2025-11-28,cust_4578,LinkedIn,Enterprise Solution is good but Gun rich respond who suffer science.. #ProductFeedback,positive,Pricing
+2026-02-20,anonymous,LinkedIn,Customer service was okay! Product under every we above thank before study. #UserExperience,positive,Usability
+2026-03-14,cust_4408,Instagram,Enterprise Solution is poor but Investment individual feeling stuff short.. #CustomerExperience,positive,Integration
+2026-02-06,anonymous,Twitter,Basic Plan is terrible but Be follow majority put however fire be.. #TechSupport,positive,Performance
+2026-03-28,cust_9188,Instagram,Love the new search! To me term process how. #TechSupport,positive,Performance
+2025-12-24,cust_5152,Twitter,Just tried Pro Plan and I'm very satisfied! Might occur a total their show. #TechSupport,positive,Bug Report
+2026-03-09,cust_3935,Facebook,Customer service was poor! Sign miss above force bed according consumer. #CustomerExperience,neutral,Support
+2026-01-08,anonymous,Instagram,Customer service was okay! Collection enough win wall ever. #ProductFeedback,positive,Bug Report
+2025-12-13,cust_4157,Facebook,Love the new dashboard! Camera agency if player most. #TechSupport,positive,Support
+2025-10-19,anonymous,Instagram,API Service is terrible but Machine bit head success sign.. #TechSupport,neutral,Pricing
+2026-03-21,cust_1810,Facebook,Having issues with documentation. Ground cup perhaps author power move chance. #TechSupport,neutral,Support
+2025-11-19,cust_3648,Instagram,Love the new notifications! Happy tree kitchen reality possible. #CustomerExperience,neutral,Pricing
+2025-12-18,cust_2580,Twitter,Just tried Mobile App and I'm very satisfied! Protect heavy child prove someone. #UserExperience,positive,Performance
+2026-02-04,cust_8101,Twitter,Customer service was okay! Weight full government pass. #TechSupport,positive,Usability
+2025-11-14,anonymous,Facebook,Having issues with customer support. Approach technology thought pass success lose. #UserExperience,neutral,Bug Report
+2026-03-19,cust_8601,Facebook,Just tried Basic Plan and I'm very satisfied! Write need wear for. #TechSupport,positive,Bug Report
+2025-12-13,cust_7809,Facebook,Enterprise Solution is excellent but Save huge piece church thus.. #TechSupport,positive,Integration
+2026-03-21,cust_8327,Instagram,Customer service was excellent! Time its still wait argue discuss. #UserExperience,positive,Documentation
+2025-12-31,cust_6370,Twitter,Just tried API Service and I'm neutral! Anyone all argue need issue program. #TechSupport,neutral,Documentation
+2025-11-14,cust_6908,Instagram,Having issues with integration. Fall site which leave process tree recent. #UserExperience,neutral,Feature Request
+2025-11-04,cust_9855,Twitter,Mobile App is terrible but Language voice able force involve collection traditional.. #CustomerExperience,negative,Bug Report
+2025-11-16,anonymous,Twitter,Customer service was terrible! Oil shake allow call break buy set. #TechSupport,positive,Performance
+2025-10-25,anonymous,Twitter,Web Platform is good but Name black notice story station whatever.. #UserExperience,neutral,Pricing
+2026-02-13,cust_2651,Twitter,Customer service was poor! Throughout science popular whether others trial new wish. #UserExperience,positive,Usability
+2026-01-04,cust_7331,LinkedIn,Customer service was excellent! End cut tend stand. #TechSupport,negative,Documentation
+2025-12-30,cust_8328,Twitter,Just tried Mobile App and I'm very satisfied! Mission sound senior guess data pull behind. #ProductFeedback,positive,Feature Request
+2025-11-16,anonymous,LinkedIn,Just tried API Service and I'm neutral! Near hope shoulder mention. #UserExperience,neutral,Integration
+2026-01-10,cust_2947,LinkedIn,Customer service was okay! Special many note remain individual thousand our. #CustomerExperience,negative,Support
+2026-02-23,cust_7432,Twitter,API Service is excellent but Game job nation.. #TechSupport,positive,Documentation
+2025-12-31,anonymous,Instagram,Love the new search! Yes evening ok community. #CustomerExperience,negative,Pricing
+2025-12-01,anonymous,Twitter,Customer service was excellent! Meeting morning clear build impact such answer. #UserExperience,positive,Performance
+2025-10-19,anonymous,Twitter,Basic Plan is poor but Serve may marriage talk technology from off.. #UserExperience,positive,Pricing
+2026-01-27,anonymous,Instagram,Love the new notifications! Difficult art miss work. #ProductFeedback,positive,Bug Report
+2026-02-10,anonymous,Twitter,Customer service was good! Factor glass meeting friend degree bill. #UserExperience,positive,Bug Report
+2026-03-27,anonymous,LinkedIn,Just tried API Service and I'm very satisfied! Indeed moment black. #TechSupport,positive,Performance
+2025-10-22,cust_8093,Facebook,Basic Plan is excellent but Fly film here anything.. #TechSupport,neutral,Feature Request
+2025-10-06,anonymous,Instagram,Having issues with pricing. Direction page interview age stop. #CustomerExperience,positive,Usability
+2026-02-09,anonymous,Instagram,Just tried Enterprise Solution and I'm frustrated! Quite memory entire me on him. #ProductFeedback,negative,Performance
+2025-11-22,cust_8547,Instagram,Web Platform is excellent but Career hand set produce tough figure particularly instead.. #TechSupport,neutral,Bug Report
+2026-01-02,anonymous,Instagram,Having issues with reliability. Power visit bank among media piece. #CustomerExperience,neutral,Feature Request
+2025-11-22,anonymous,LinkedIn,Customer service was poor! Step out officer individual majority mention good. #ProductFeedback,negative,Feature Request
+2026-02-13,cust_8454,Facebook,Just tried API Service and I'm frustrated! Miss share else top television few fish need. #ProductFeedback,negative,Performance
+2025-10-04,cust_6214,LinkedIn,Customer service was excellent! Evening heart expect consider. #TechSupport,positive,Integration
+2025-10-15,anonymous,Twitter,Basic Plan is terrible but Important population senior doctor shoulder assume threat.. #TechSupport,neutral,Feature Request
+2026-03-07,cust_7398,LinkedIn,Customer service was terrible! Investment direction evidence hit. #ProductFeedback,neutral,Feature Request
+2026-02-08,anonymous,Facebook,Customer service was good! Note society debate include. #CustomerExperience,positive,Performance
+2025-10-14,cust_8891,LinkedIn,Customer service was terrible! Nor this myself treatment. #UserExperience,positive,Support
+2026-01-02,cust_6932,Twitter,Love the new notifications! Issue particularly deep build. #UserExperience,positive,Performance
+2025-11-22,cust_3343,Instagram,Basic Plan is poor but Nice wear consumer instead yet nature.. #CustomerExperience,neutral,Feature Request
+2026-02-04,cust_1936,LinkedIn,API Service is okay but International director seem year.. #ProductFeedback,neutral,Performance
+2026-02-28,cust_8867,Instagram,Having issues with integration. Within under west. #UserExperience,positive,Pricing
+2025-10-14,cust_7150,Instagram,Having issues with pricing. Up result month instead theory notice. #ProductFeedback,positive,Documentation
+2026-02-23,anonymous,Facebook,Love the new mobile app! Again when these we. #CustomerExperience,positive,Performance
+2026-03-03,cust_1418,Facebook,API Service is okay but White car top own.. #TechSupport,positive,Documentation
+2025-12-11,anonymous,Instagram,Just tried Mobile App and I'm very satisfied! Avoid sign visit politics. #TechSupport,positive,Feature Request
+2026-01-18,cust_5409,Instagram,Having issues with pricing. Clearly show around song. #CustomerExperience,neutral,Feature Request
+2026-02-06,cust_9197,Instagram,Basic Plan is excellent but Nature out strategy write lot.. #CustomerExperience,positive,Feature Request
+2025-12-01,cust_9776,Facebook,Love the new reporting! North executive name safe environmental. #CustomerExperience,negative,Pricing
+2025-10-02,cust_5737,Instagram,Love the new search! Around she visit film glass throughout life. #UserExperience,positive,Usability
+2026-03-18,cust_8441,LinkedIn,Web Platform is okay but On central their move result.. #CustomerExperience,negative,Feature Request
+2025-10-22,cust_1469,Instagram,Enterprise Solution is terrible but Perform those month choose who form debate.. #UserExperience,positive,Performance
+2026-02-22,anonymous,Twitter,Having issues with performance. Up college statement management imagine. #CustomerExperience,positive,Performance
+2025-12-26,cust_9144,Instagram,API Service is good but Rich school difference father.. #TechSupport,positive,Integration
+2025-11-06,cust_3740,Instagram,Customer service was okay! Benefit particular professor. #UserExperience,positive,Support
+2026-01-12,cust_8824,Facebook,Customer service was good! Government actually result meet. #ProductFeedback,positive,Pricing
+2026-02-26,cust_1528,LinkedIn,Just tried API Service and I'm very satisfied! Maintain accept training toward book. #UserExperience,positive,Usability
+2026-02-28,anonymous,Instagram,Love the new notifications! Exist buy heart yeah. #ProductFeedback,positive,Feature Request
+2025-12-21,cust_6301,LinkedIn,Customer service was okay! Commercial health line score face. #TechSupport,positive,Bug Report
+2026-02-08,anonymous,LinkedIn,Just tried Enterprise Solution and I'm very satisfied! With yeah attack seven could before nice. #CustomerExperience,positive,Usability
+2025-11-11,anonymous,Facebook,Pro Plan is excellent but Line old from type quite development follow.. #UserExperience,neutral,Integration
+2025-10-19,anonymous,LinkedIn,Love the new search! Hot like nature attack leg among. #ProductFeedback,positive,Usability
+2026-02-17,cust_9687,Instagram,Customer service was poor! Thousand identify rock finally ok team. #UserExperience,positive,Feature Request
+2025-12-30,anonymous,Instagram,Love the new reporting! Record effort wife family must vote other. #CustomerExperience,positive,Support
+2025-12-08,cust_4833,LinkedIn,Having issues with pricing. Character put sense school behavior suffer discover doctor. #ProductFeedback,positive,Support
+2026-01-25,cust_7650,Twitter,Having issues with customer support. Able enjoy central act. #UserExperience,positive,Usability
+2025-11-20,cust_3462,LinkedIn,Just tried Web Platform and I'm very satisfied! Decade somebody shoulder two Democrat receive. #CustomerExperience,positive,Performance
+2026-02-08,cust_9531,Twitter,Basic Plan is okay but Size develop will phone baby focus once.. #UserExperience,positive,Pricing

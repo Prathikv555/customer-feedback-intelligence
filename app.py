@@ -17,6 +17,7 @@ warnings.filterwarnings('ignore')
 
 from data_processor import DataProcessor
 from ai_analyzer import AIAnalyzer
+from chatbot import FeedbackChatbot
 
 # Set page config
 st.set_page_config(
@@ -224,6 +225,9 @@ def main():
             # Get AI insights
             insights, analyzer = get_ai_insights(data)
             
+            # Initialize chatbot
+            chatbot = FeedbackChatbot(processor, analyzer)
+            
         except Exception as e:
             st.error(f"Error loading data: {str(e)}")
             return
@@ -418,6 +422,74 @@ def main():
             use_container_width=True,
             hide_index=True
         )
+    
+    # AI Chatbot Section
+    st.markdown("## 🤖 AI Assistant - Ask Questions About Your Data")
+    
+    # Initialize chat history in session state
+    if 'chat_history' not in st.session_state:
+        st.session_state.chat_history = []
+    
+    # Chat interface
+    col1, col2 = st.columns([4, 1])
+    
+    with col1:
+        user_question = st.text_input(
+            "Ask about your customer feedback data...",
+            placeholder="e.g., What's the overall sentiment? What are the top issues? How many complaints this month?",
+            key="user_question"
+        )
+    
+    with col2:
+        ask_button = st.button("Ask", type="primary")
+    
+    # Display chat history
+    if st.session_state.chat_history:
+        st.markdown("### 💬 Conversation History")
+        for i, (question, answer) in enumerate(st.session_state.chat_history):
+            with st.expander(f"Q{i+1}: {question[:50]}..."):
+                st.markdown(f"**You:** {question}")
+                st.markdown(f"**Assistant:** {answer}")
+    
+    # Process question
+    if ask_button and user_question:
+        with st.spinner("Thinking..."):
+            try:
+                response = chatbot.get_response(user_question)
+                
+                # Add to chat history
+                st.session_state.chat_history.append((user_question, response))
+                
+                # Display response
+                st.markdown("### 🤖 AI Response")
+                st.markdown(response)
+                
+                # Clear input
+                st.session_state.user_question = ""
+                
+            except Exception as e:
+                st.error(f"Error processing question: {str(e)}")
+    
+    # Quick question suggestions
+    st.markdown("### 💡 Quick Questions")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.button("What's the overall sentiment?"):
+            st.session_state.user_question = "What's the overall sentiment?"
+    
+    with col2:
+        if st.button("What are the top issues?"):
+            st.session_state.user_question = "What are the top issues?"
+    
+    with col3:
+        if st.button("How should we improve?"):
+            st.session_state.user_question = "How should we improve?"
+    
+    # Clear chat history button
+    if st.button("Clear Chat History"):
+        st.session_state.chat_history = []
+        st.rerun()
     
     # Footer
     st.markdown("---")

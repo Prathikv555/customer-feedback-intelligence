@@ -9,6 +9,7 @@ An AI-powered system for collecting, analyzing, and visualizing customer feedbac
 - **Real-time Dashboard**: Interactive visualizations and insights
 - **Trend Analysis**: Identify emerging issues and patterns
 - **Automated Reporting**: Generate insights automatically
+- **🤖 AI Chatbot Assistant**: Ask natural language questions about your feedback data
 
 ## Setup Instructions
 
@@ -82,6 +83,7 @@ customer-feedback-intelligence/
 ├── generate_feedback_data.py      # Data generation script
 ├── data_processor.py              # Data processing pipeline
 ├── ai_analyzer.py                 # AI analysis module
+├── chatbot.py                    # 🤖 AI chatbot assistant
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
 └── venv/                          # Virtual environment
@@ -93,6 +95,12 @@ customer-feedback-intelligence/
 2. **Dashboard**: Run `app.py` to launch the interactive dashboard
 3. **Analysis**: The system automatically analyzes sentiment and categorizes feedback
 4. **Insights**: View trends, patterns, and key issues in the dashboard
+5. **🤖 AI Assistant**: Ask natural language questions about your data:
+   - "What's the overall customer sentiment?"
+   - "What are the top customer complaints?"
+   - "How many bug reports did we get this month?"
+   - "What features are customers requesting most?"
+   - "How should we improve customer satisfaction?"
 
 ## Technology Stack
 
