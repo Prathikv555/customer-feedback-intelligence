@@ -215,12 +215,19 @@ def main():
         if 'sidebar_question' not in st.session_state:
             st.session_state.sidebar_question = ""
         
+        # Get current question from session state
+        current_question = st.session_state.sidebar_question
+        
         user_question = st.text_input(
             "Type your question...",
             placeholder="e.g., What's the sentiment?",
-            value=st.session_state.sidebar_question,
+            value=current_question,
             key="sidebar_question_input"
         )
+        
+        # Update session state if user changes the input
+        if user_question != current_question:
+            st.session_state.sidebar_question = user_question
         
         ask_button = st.button("Ask", type="primary", key="sidebar_ask")
         
@@ -231,29 +238,26 @@ def main():
         with col1:
             if st.button("Sentiment?", key="sentiment_q", use_container_width=True):
                 st.session_state.sidebar_question = "What's the overall sentiment?"
-                st.rerun()
         
         with col2:
             if st.button("Top Issues?", key="issues_q", use_container_width=True):
                 st.session_state.sidebar_question = "What are the top issues?"
-                st.rerun()
         
         if st.button("How to improve?", key="improve_q", use_container_width=True):
             st.session_state.sidebar_question = "How should we improve?"
-            st.rerun()
         
         # Process question
-        if ask_button and user_question:
+        if ask_button and st.session_state.sidebar_question:
             with st.spinner("Thinking..."):
                 try:
                     # Initialize chatbot if not already done
                     if 'chatbot' not in st.session_state:
                         st.session_state.chatbot = FeedbackChatbot(processor, analyzer)
                     
-                    response = st.session_state.chatbot.get_response(user_question)
+                    response = st.session_state.chatbot.get_response(st.session_state.sidebar_question)
                     
                     # Add to chat history
-                    st.session_state.chat_history.append((user_question, response))
+                    st.session_state.chat_history.append((st.session_state.sidebar_question, response))
                     
                     # Display latest response
                     st.markdown("**Latest Response:**")
