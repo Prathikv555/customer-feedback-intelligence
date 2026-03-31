@@ -213,20 +213,26 @@ def main():
     if 'sidebar_question' not in st.session_state:
         st.session_state.sidebar_question = ""
     
+    def set_sentiment_question():
+        st.session_state.sidebar_question = "What's the overall sentiment?"
+    
+    def set_issues_question():
+        st.session_state.sidebar_question = "What are the top issues?"
+    
+    def set_improve_question():
+        st.session_state.sidebar_question = "How should we improve?"
+    
     # Quick question buttons (outside expander for better interaction)
     st.sidebar.markdown("**Quick Questions:**")
     
-    if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True):
-        st.session_state.sidebar_question = "What's the overall sentiment?"
-        st.rerun()
+    if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True, on_click=set_sentiment_question):
+        pass
     
-    if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True):
-        st.session_state.sidebar_question = "What are the top issues?"
-        st.rerun()
+    if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True, on_click=set_issues_question):
+        pass
     
-    if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True):
-        st.session_state.sidebar_question = "How should we improve?"
-        st.rerun()
+    if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True, on_click=set_improve_question):
+        pass
     
     # Chat interface in expander
     with st.sidebar.expander("💬 Ask Your Question", expanded=False):
