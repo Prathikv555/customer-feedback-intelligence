@@ -215,17 +215,14 @@ def main():
     
     # Quick question buttons (outside expander for better interaction)
     st.sidebar.markdown("**Quick Questions:**")
-    col1, col2 = st.columns(2)
     
-    with col1:
-        if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True):
-            st.session_state.sidebar_question = "What's the overall sentiment?"
-            st.rerun()
+    if st.sidebar.button("Sentiment?", key="sentiment_q", use_container_width=True):
+        st.session_state.sidebar_question = "What's the overall sentiment?"
+        st.rerun()
     
-    with col2:
-        if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True):
-            st.session_state.sidebar_question = "What are the top issues?"
-            st.rerun()
+    if st.sidebar.button("Top Issues?", key="issues_q", use_container_width=True):
+        st.session_state.sidebar_question = "What are the top issues?"
+        st.rerun()
     
     if st.sidebar.button("How to improve?", key="improve_q", use_container_width=True):
         st.session_state.sidebar_question = "How should we improve?"

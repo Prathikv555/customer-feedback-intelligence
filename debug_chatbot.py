@@ -13,21 +13,17 @@ if 'sidebar_question' not in st.session_state:
 st.write("### Testing Quick Question Buttons")
 
 # Quick question buttons
-col1, col2 = st.columns(2)
+if st.button("Sentiment?", key="sentiment_q_debug", use_container_width=True):
+    st.session_state.sidebar_question = "What's the overall sentiment?"
+    st.write("✅ Sentiment button clicked!")
+    st.write(f"Set question: {st.session_state.sidebar_question}")
+    st.rerun()
 
-with col1:
-    if st.button("Sentiment?", key="sentiment_q_debug", use_container_width=True):
-        st.session_state.sidebar_question = "What's the overall sentiment?"
-        st.write("✅ Sentiment button clicked!")
-        st.write(f"Set question: {st.session_state.sidebar_question}")
-        st.rerun()
-
-with col2:
-    if st.button("Top Issues?", key="issues_q_debug", use_container_width=True):
-        st.session_state.sidebar_question = "What are the top issues?"
-        st.write("✅ Issues button clicked!")
-        st.write(f"Set question: {st.session_state.sidebar_question}")
-        st.rerun()
+if st.button("Top Issues?", key="issues_q_debug", use_container_width=True):
+    st.session_state.sidebar_question = "What are the top issues?"
+    st.write("✅ Issues button clicked!")
+    st.write(f"Set question: {st.session_state.sidebar_question}")
+    st.rerun()
 
 if st.button("How to improve?", key="improve_q_debug", use_container_width=True):
     st.session_state.sidebar_question = "How should we improve?"
