@@ -13,10 +13,9 @@ import json
 class FeedbackChatbot:
     """AI-powered chatbot for customer feedback analysis"""
     
-    def __init__(self, data_processor, ai_analyzer):
-        self.processor = data_processor
+    def __init__(self, data, ai_analyzer):
         self.analyzer = ai_analyzer
-        self.data = data_processor.processed_data
+        self.data = data  # Direct DataFrame instead of processor
         self.insights = None
         
         # Pre-compute common insights
@@ -287,15 +286,13 @@ def main():
     print("Customer Feedback Intelligence Chatbot")
     print("Type 'quit' to exit\n")
     
-    # Mock data processor and analyzer for testing
-    class MockProcessor:
-        def __init__(self):
-            self.processed_data = pd.DataFrame({
-                'date': pd.date_range('2024-01-01', periods=100),
-                'sentiment': np.random.choice(['positive', 'negative', 'neutral'], 100),
-                'category': np.random.choice(['Bug Report', 'Feature Request', 'Support'], 100),
-                'clean_text': ['sample text'] * 100
-            })
+    # Mock data for testing
+    mock_data = pd.DataFrame({
+        'date': pd.date_range('2024-01-01', periods=100),
+        'sentiment': np.random.choice(['positive', 'negative', 'neutral'], 100),
+        'category': np.random.choice(['Bug Report', 'Feature Request', 'Support'], 100),
+        'clean_text': ['sample text'] * 100
+    })
     
     class MockAnalyzer:
         def generate_insights_summary(self, data):
@@ -312,9 +309,8 @@ def main():
                 ]
             }
     
-    processor = MockProcessor()
     analyzer = MockAnalyzer()
-    chatbot = FeedbackChatbot(processor, analyzer)
+    chatbot = FeedbackChatbot(mock_data, analyzer)
     
     while True:
         question = input("You: ")
