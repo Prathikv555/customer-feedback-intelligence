@@ -18,6 +18,7 @@ warnings.filterwarnings('ignore')
 from data_processor import DataProcessor
 from ai_analyzer import AIAnalyzer
 from chatbot import FeedbackChatbot
+from dynamic_data_loader import DynamicDataLoader
 
 # Set page config
 st.set_page_config(
@@ -201,6 +202,72 @@ def main():
         index=2
     )
     
+    # Dataset Management Section
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 📁 Dataset Management")
+    
+    # Initialize dynamic data loader
+    if 'data_loader' not in st.session_state:
+        st.session_state.data_loader = DynamicDataLoader()
+    
+    # Show available datasets
+    available_datasets = st.session_state.data_loader.get_available_datasets()
+    if available_datasets:
+        current_dataset = st.session_state.data_loader.current_dataset or "None"
+        
+        # Dataset selector
+        selected_dataset = st.sidebar.selectbox(
+            "Select Dataset:",
+            options=available_datasets,
+            index=available_datasets.index(current_dataset) if current_dataset in available_datasets else 0
+        )
+        
+        # Switch dataset button
+        if st.sidebar.button("Switch Dataset", use_container_width=True):
+            if st.session_state.data_loader.set_active_dataset(selected_dataset):
+                st.success(f"Switched to: {selected_dataset}")
+                st.rerun()
+        
+        # Dataset info
+        if st.session_state.data_loader.current_dataset:
+            dataset_info = st.session_state.data_loader.get_dataset_info()
+            with st.sidebar.expander("Dataset Info", expanded=False):
+                st.json(dataset_info)
+        
+        # Upload section
+        st.sidebar.markdown("**Upload New Dataset:**")
+        uploaded_file = st.sidebar.file_uploader(
+            "Upload CSV/TXT",
+            type=['csv', 'txt'],
+            help="Upload customer feedback data"
+        )
+        
+        if uploaded_file:
+            dataset_name = st.sidebar.text_input(
+                "Dataset name:",
+                value=f"upload_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+            )
+            
+            if st.sidebar.button("Upload", type="primary"):
+                if st.session_state.data_loader.upload_dataset(uploaded_file, dataset_name):
+                    st.success(f"Uploaded: {dataset_name}")
+                    st.rerun()
+    else:
+        st.sidebar.info("No datasets available. Generate sample data first.")
+        if st.sidebar.button("Generate Sample Data", use_container_width=True):
+            import subprocess
+            import sys
+            try:
+                result = subprocess.run([sys.executable, "generate_feedback_data.py"], 
+                                      capture_output=True, text=True)
+                if result.returncode == 0:
+                    st.success("Sample data generated!")
+                    st.rerun()
+                else:
+                    st.error("Failed to generate data")
+            except Exception as e:
+                st.error(f"Error: {str(e)}")
+    
     # AI Chatbot in Sidebar
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🤖 AI Assistant")
@@ -244,7 +311,9 @@ def main():
                     try:
                         # Initialize chatbot if not already done
                         if 'chatbot' not in st.session_state:
-                            st.session_state.chatbot = FeedbackChatbot(processor, analyzer)
+                            st.session_state.chatbot = FeedbackChatbot(
+                                st.session_state.data_loader, analyzer
+                            )
                         
                         response = st.session_state.chatbot.get_response(question)
                         
@@ -276,33 +345,31 @@ def main():
             st.session_state.current_question = ""
             st.rerun()
     
-    # Load data
+    # Initialize dynamic data loader
+    if 'data_loader' not in st.session_state:
+        st.session_state.data_loader = DynamicDataLoader()
+    
+    # Load data using dynamic loader
     with st.spinner("Loading and processing data..."):
         try:
-            processor, data = load_and_process_data()
+            # Get data from dynamic loader
+            data = st.session_state.data_loader.get_current_data()
             
             if data.empty:
-                st.error("No data found. Please run the data generation script first.")
-                st.info("Run: `python generate_feedback_data.py`")
+                st.error("No data found. Please run data generation script or upload a dataset.")
+                st.info("Options:")
+                st.info("1. Run: `python generate_feedback_data.py`")
+                st.info("2. Upload: Use the upload section below")
                 return
-            
-            # Filter by time period
-            if time_period == "Last 30 Days":
-                cutoff_date = datetime.now() - timedelta(days=30)
-                data = data[data['date'] >= cutoff_date]
-            elif time_period == "Last 3 Months":
-                cutoff_date = datetime.now() - timedelta(days=90)
-                data = data[data['date'] >= cutoff_date]
-            elif time_period == "Last 6 Months":
-                cutoff_date = datetime.now() - timedelta(days=180)
-                data = data[data['date'] >= cutoff_date]
             
             # Get AI insights
             insights, analyzer = get_ai_insights(data)
             
             # Initialize chatbot in session state
             if 'chatbot' not in st.session_state:
-                st.session_state.chatbot = FeedbackChatbot(processor, analyzer)
+                st.session_state.chatbot = FeedbackChatbot(
+                    st.session_state.data_loader, analyzer
+                )
             
         except Exception as e:
             st.error(f"Error loading data: {str(e)}")

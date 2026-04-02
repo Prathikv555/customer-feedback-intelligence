@@ -84,6 +84,7 @@ customer-feedback-intelligence/
 ├── data_processor.py              # Data processing pipeline
 ├── ai_analyzer.py                 # AI analysis module
 ├── chatbot.py                    # 🤖 AI chatbot assistant
+├── dynamic_data_loader.py         # 📁 Dynamic dataset management
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
 └── venv/                          # Virtual environment
@@ -92,15 +93,17 @@ customer-feedback-intelligence/
 ## Usage
 
 1. **Data Generation**: Run `generate_feedback_data.py` to create 6 months of sample data
-2. **Dashboard**: Run `app.py` to launch the interactive dashboard
+2. **Dashboard**: Run `app.py` to launch interactive dashboard
 3. **Analysis**: The system automatically analyzes sentiment and categorizes feedback
-4. **Insights**: View trends, patterns, and key issues in the dashboard
-5. **🤖 AI Assistant**: Ask natural language questions about your data:
-   - "What's the overall customer sentiment?"
+4. **Insights**: View trends, patterns, and key issues in dashboard
+5. **🤖 AI Assistant**: Ask natural language questions about your data
+6. **📁 Dynamic Datasets**: Upload and switch between multiple datasets
+   - "What's the overall sentiment?"
    - "What are the top customer complaints?"
    - "How many bug reports did we get this month?"
    - "What features are customers requesting most?"
    - "How should we improve customer satisfaction?"
+7. **👥 User Management**: Manage user access and collaborate with team members
 
 ## Technology Stack
 
