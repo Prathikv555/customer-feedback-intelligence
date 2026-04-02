@@ -381,9 +381,7 @@ def main():
             
             # Initialize chatbot in session state
             if 'chatbot' not in st.session_state:
-                st.session_state.chatbot = FeedbackChatbot(
-                    st.session_state.data_loader, analyzer
-                )
+                st.session_state.chatbot = FeedbackChatbot(data, analyzer)
             
         except Exception as e:
             st.error(f"Error loading data: {str(e)}")
@@ -391,63 +389,41 @@ def main():
     
     # Key Metrics
     st.markdown("## 📈 Key Metrics")
-    metrics = processor.get_key_metrics()
+    
+    # Calculate metrics from data
+    total_feedback = len(data)
+    avg_sentiment = data['sentiment'].value_counts().get('positive', 0) / total_feedback * 100 if total_feedback > 0 else 0
+    top_category = data['category'].value_counts().index[0] if not data.empty and 'category' in data.columns else 'N/A'
     
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.metric(
-            "Total Feedback",
-            f"{metrics.get('total_records', 0):,}",
-            delta="Records"
-        )
+        st.metric("Total Feedback", total_feedback)
     
     with col2:
-        st.metric(
-            "Satisfaction Score",
-            f"{metrics.get('satisfaction_score', 0)}%",
-            delta="Positive - Negative"
-        )
+        st.metric("Positive Sentiment", f"{avg_sentiment:.1f}%")
     
     with col3:
-        st.metric(
-            "Avg Response Length",
-            f"{metrics.get('avg_response_length', 0)} chars",
-            delta="Characters"
-        )
+        st.metric("Top Category", top_category)
     
     with col4:
-        st.metric(
-            "Most Active Day",
-            metrics.get('most_active_day', 'N/A'),
-            delta="Day of Week"
-        )
+        st.metric("Date Range", f"{data['date'].min().strftime('%Y-%m-%d')} to {data['date'].max().strftime('%Y-%m-%d')}")
     
     # Charts Row 1
     st.markdown("## 📊 Sentiment Analysis")
     col1, col2 = st.columns(2)
     
     with col1:
-        sentiment_dist = processor.get_sentiment_distribution()
+        # Calculate sentiment distribution from data
+        sentiment_dist = data['sentiment'].value_counts().to_dict()
         fig_gauge = create_sentiment_gauge(sentiment_dist)
         st.plotly_chart(fig_gauge, use_container_width=True)
     
     with col2:
-        # Sentiment distribution bar chart
-        fig_sentiment = go.Figure(data=[
-            go.Bar(
-                x=list(sentiment_dist.keys()),
-                y=list(sentiment_dist.values()),
-                marker_color=['lightgreen', 'lightgray', 'lightcoral']
-            )
-        ])
-        fig_sentiment.update_layout(
-            title="Sentiment Distribution",
-            xaxis_title="Sentiment",
-            yaxis_title="Count",
-            height=300
-        )
-        st.plotly_chart(fig_sentiment, use_container_width=True)
+        # Calculate category distribution from data
+        category_dist = data['category'].value_counts().to_dict()
+        fig_pie = create_category_pie_chart(category_dist)
+        st.plotly_chart(fig_pie, use_container_width=True)
     
     # Temporal Trends
     st.markdown("## 📈 Temporal Trends")
@@ -460,12 +436,12 @@ def main():
     col1, col2 = st.columns(2)
     
     with col1:
-        category_dist = processor.get_category_distribution()
-        fig_category = create_category_distribution_chart(category_dist)
+        category_dist = data['category'].value_counts().to_dict()
+        fig_category = create_category_trend_chart(category_dist)
         st.plotly_chart(fig_category, use_container_width=True)
     
     with col2:
-        source_dist = processor.get_source_distribution()
+        source_dist = data['source'].value_counts().to_dict()
         fig_source = create_source_pie_chart(source_dist)
         st.plotly_chart(fig_source, use_container_width=True)
     
