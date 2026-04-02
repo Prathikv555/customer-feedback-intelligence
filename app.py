@@ -100,10 +100,15 @@ def create_sentiment_gauge(sentiment_dist):
 
 def create_temporal_trend_chart(data, period='month'):
     """Create temporal trend chart"""
+    # Ensure date column is datetime
+    data['date'] = pd.to_datetime(data['date'], errors='coerce')
+    
     if period == 'month':
+        data['month'] = data['date'].dt.to_period('M').astype(str)
         trend_data = data.groupby(['month', 'sentiment']).size().unstack(fill_value=0)
         trend_data.index = trend_data.index.astype(str)
     else:
+        data['week'] = data['date'].dt.to_period('W').astype(str)
         trend_data = data.groupby(['week', 'sentiment']).size().unstack(fill_value=0)
         trend_data.index = trend_data.index.astype(str)
     
