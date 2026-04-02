@@ -66,13 +66,25 @@ class DynamicDataLoader:
             return {"status": "No dataset selected"}
         
         data = self.datasets[self.current_dataset]
+        
+        # Handle date column - convert to datetime if it's a string
+        date_info = {"start": "N/A", "end": "N/A"}
+        if not data.empty and 'date' in data.columns:
+            try:
+                # Convert to datetime if needed
+                dates = pd.to_datetime(data['date'], errors='coerce')
+                if not dates.isna().all():
+                    date_info = {
+                        "start": dates.min().strftime('%Y-%m-%d'),
+                        "end": dates.max().strftime('%Y-%m-%d')
+                    }
+            except Exception as e:
+                print(f"Date conversion error: {e}")
+        
         return {
             "name": self.current_dataset,
             "records": len(data),
-            "date_range": {
-                "start": data['date'].min().strftime('%Y-%m-%d') if not data.empty else 'N/A',
-                "end": data['date'].max().strftime('%Y-%m-%d') if not data.empty else 'N/A'
-            },
+            "date_range": date_info,
             "sources": list(data['source'].unique()) if 'source' in data.columns else [],
             "categories": list(data['category'].unique()) if 'category' in data.columns else []
         }
