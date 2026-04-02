@@ -362,6 +362,20 @@ def main():
                 st.info("2. Upload: Use the upload section below")
                 return
             
+            # Convert date column to datetime if it's not already
+            data['date'] = pd.to_datetime(data['date'], errors='coerce')
+            
+            # Filter by time period
+            if time_period == "Last 30 Days":
+                cutoff_date = datetime.now() - timedelta(days=30)
+                data = data[data['date'] >= cutoff_date]
+            elif time_period == "Last 3 Months":
+                cutoff_date = datetime.now() - timedelta(days=90)
+                data = data[data['date'] >= cutoff_date]
+            elif time_period == "Last 6 Months":
+                cutoff_date = datetime.now() - timedelta(days=180)
+                data = data[data['date'] >= cutoff_date]
+            
             # Get AI insights
             insights, analyzer = get_ai_insights(data)
             
