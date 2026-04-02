@@ -422,8 +422,8 @@ def main():
     with col2:
         # Calculate category distribution from data
         category_dist = data['category'].value_counts().to_dict()
-        fig_pie = create_category_pie_chart(category_dist)
-        st.plotly_chart(fig_pie, use_container_width=True)
+        fig_category = create_category_distribution_chart(category_dist)
+        st.plotly_chart(fig_category, use_container_width=True)
     
     # Temporal Trends
     st.markdown("## 📈 Temporal Trends")
