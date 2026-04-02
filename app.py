@@ -442,7 +442,7 @@ def main():
     
     with col1:
         category_dist = data['category'].value_counts().to_dict()
-        fig_category = create_category_trend_chart(category_dist)
+        fig_category = create_category_distribution_chart(category_dist)
         st.plotly_chart(fig_category, use_container_width=True)
     
     with col2:
