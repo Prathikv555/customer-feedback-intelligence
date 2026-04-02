@@ -57,7 +57,9 @@ class DynamicDataLoader:
     def get_current_data(self) -> pd.DataFrame:
         """Get current active dataset"""
         if self.current_dataset and self.current_dataset in self.datasets:
-            return self.datasets[self.current_dataset]
+            data = self.datasets[self.current_dataset]
+            # Ensure clean_text column exists
+            return self._ensure_clean_text_column(data, self.current_dataset)
         return pd.DataFrame()
     
     def get_dataset_info(self) -> Dict:
@@ -112,6 +114,9 @@ class DynamicDataLoader:
                 # Assume it's a text file that needs processing
                 data = self._process_text_upload(uploaded_file)
             
+            # Ensure clean_text column exists
+            data = self._ensure_clean_text_column(data, dataset_name)
+            
             # Save to data directory
             filepath = os.path.join("data", f"{dataset_name}.csv")
             data.to_csv(filepath, index=False)
@@ -151,6 +156,30 @@ class DynamicDataLoader:
         except Exception as e:
             st.error(f"Error processing text file: {str(e)}")
             return pd.DataFrame()
+    
+    def _ensure_clean_text_column(self, data: pd.DataFrame, source_name: str) -> pd.DataFrame:
+        """Ensure data has clean_text column for processing"""
+        data = data.copy()
+        
+        if 'clean_text' not in data.columns:
+            # Try to create clean_text from available columns
+            if source_name == 'emails' and 'body' in data.columns:
+                data['clean_text'] = (data.get('subject', '') + ' ' + data['body']).astype(str)
+            elif source_name == 'surveys' and 'feedback_text' in data.columns:
+                data['clean_text'] = data['feedback_text'].astype(str)
+            elif source_name == 'social_media' and 'post_content' in data.columns:
+                data['clean_text'] = data['post_content'].astype(str)
+            elif source_name == 'support_tickets' and 'issue_description' in data.columns:
+                data['clean_text'] = data['issue_description'].astype(str)
+            else:
+                # Generic approach - use the first text column
+                text_columns = data.select_dtypes(include=['object']).columns
+                if len(text_columns) > 0:
+                    data['clean_text'] = data[text_columns[0]].astype(str)
+                else:
+                    data['clean_text'] = 'No text content available'
+        
+        return data
 
 def main():
     """Test dynamic data loader"""
