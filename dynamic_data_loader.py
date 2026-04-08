@@ -179,6 +179,21 @@ class DynamicDataLoader:
                 else:
                     data['clean_text'] = 'No text content available'
         
+        # Ensure source column exists
+        if 'source' not in data.columns:
+            if source_name == 'emails':
+                data['source'] = 'Email'
+            elif source_name == 'surveys':
+                data['source'] = 'Survey'
+            elif source_name == 'social_media':
+                data['source'] = 'Social Media'
+            elif source_name == 'support_tickets':
+                data['source'] = 'Support Tickets'
+            elif source_name.startswith('upload_'):
+                data['source'] = 'Uploaded Data'
+            else:
+                data['source'] = source_name.replace('_', ' ').title()
+        
         return data
 
 def main():
